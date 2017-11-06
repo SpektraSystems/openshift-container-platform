@@ -1,0 +1,46 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"_artifactsLocation": {
+			"value": "https://raw.githubusercontent.com/PraveenAnil/openshift-containerplatform/master"
+		},
+		"adminUsername": {
+			"value": "GEN-UNIQUE"
+		},
+		"openshiftPassword": {
+			"value": "GEN-PASSWORD"
+		},
+		"rhsmUsernamePasswordOrActivationKey": {
+			"value": "password"
+		},
+		"rhsmUsernameOrOrgId": {
+			"value": "GEN-UNIQUE"
+		},
+		"rhsmPasswordOrActivationKey": {
+			"value": "GEN-UNIQUE"
+		},
+		"rhsmPoolId": {
+			"value": "GEN-UNIQUE"
+		},
+		"sshPublicKey": {
+			"value": "GEN-SSH-PUB-KEY"
+		},
+
+		"keyVaultName": {
+			"value": "GEN-UNIQUE"
+		},
+		"keyVaultSecret": {
+			"value": "GEN-UNIQUE"
+		},
+		"aadAuthAppName": {
+			"value": "GEN-UNIQUE"
+		},
+		"aadAuthClientId": {
+			"value": "GEN-UNIQUE"
+		},
+		"aadAuthClientSecret": {
+			"value": "GEN-UNIQUE"
+		}
+	}
+}
