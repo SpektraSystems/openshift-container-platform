@@ -8,7 +8,7 @@
                 "description": "Base URL for Template Files",
                 "artifactsBaseUrl": ""
             },
-            "defaultValue": "https://raw.githubusercontent.com/PraveenAnil/openshift-container-platform/master"
+            "defaultValue": "https://raw.githubusercontent.com/SpektraSystems/openshift-container-platform/master"
         },
 
         "adminUsername": {
