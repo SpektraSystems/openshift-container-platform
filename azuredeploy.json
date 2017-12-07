@@ -80,6 +80,20 @@
                 "description": "Key Vault Secret Name that contains the Private Key"
             }
         },
+        "azureIntegrationClientId": {
+            "type": "string",
+            "minLength": 1,
+            "metadata": {
+                "description": "Azure Integration Client ID"
+            }
+        },
+        "azureIntegrationClientSecret": {
+            "type": "securestring",
+            "minLength": 1,
+            "metadata": {
+                "description": "Azure Integration Client Secret"
+            }
+        },
         "aadAuthAppName": {
             "type": "string",
             "minLength": 1,
@@ -87,6 +101,7 @@
                 "description": "Azure AD App Name used for Authentication"
             }
         },
+
         "aadAuthClientId": {
             "type": "string",
             "minLength": 1,
@@ -108,13 +123,13 @@
         "nodeInstanceCount": 1,
         "dataDiskSize": 128,
 
-        "enableMetrics": "false",
-        "enableLogging": "false",
-        "enableCockpit": "false",
+        "enableMetrics": "true",
+        "enableLogging": "true",
+        "enableCockpit": "true",
 
-        "enableAzure": "false",
-        "aadClientId": "1982910021029109090",
-        "aadClientSecret": "812381636186231638",
+        "enableAzure": "true",
+        "aadClientId": "[parameters('azureIntegrationClientId')]",
+        "aadClientSecret": "[parameters('azureIntegrationClientSecret')]",
         "masterVmSize": "Standard_D2_v2",
         "infraVmSize": "Standard_D2_v2",
         "nodeVmSize": "Standard_D2_v2",
