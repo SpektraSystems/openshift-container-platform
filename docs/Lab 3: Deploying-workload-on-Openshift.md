@@ -181,7 +181,7 @@ In this exercise, you will learn how to create an **application** from a Dockerf
 1.	You can create a new **project** or use **existing project** that created in exercise 3. To make sure you have the existing project run the following command.
 <img src="../images/94openshift_cmnd.jpg"/>
 
-2.	Now, we are using the Dockerfile as the basis to create a docker image for application. Run the command is given below.
+2.	Now, we are using the Dockerfile as the basis to create a **docker image** for application. Run the command is given below.
 ```
 oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
 ```
