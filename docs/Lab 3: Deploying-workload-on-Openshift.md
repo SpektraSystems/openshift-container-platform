@@ -142,7 +142,7 @@ oc new-app redhatworkshops/welcome-php --name=welcome
 ``` 
 <img src="../images/87openshift_cmnd.jpg"/> 
 
-6.	The above command uses the docker image to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
+6.	The above command uses the **docker image** to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
 ```
 oc get pods
 ``` 
