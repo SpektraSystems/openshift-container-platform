@@ -55,7 +55,7 @@ In this exercise, you will verify the type of role you are assigned in this Subs
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
-5.	You will see a Resource Group which you have access to, **click** on it.
+5.	You will see a **Resource Group** which you have access to, **click** on it.
 
 ![Select RG](../images/10select_rg.jpg)
 
@@ -64,7 +64,7 @@ Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
 ```
 
-6.	From the Resource Group blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
+6.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
 
 ![Access Control](https://github.com/ShivaniThadiyan/openshift-container-platform/blob/master/images/11access_control.jpg)
 
