@@ -127,7 +127,7 @@
         "enableLogging": "true",
         "enableCockpit": "true",
 
-        "enableAzure": "true",
+        "enableAzure": "false",
         "aadClientId": "[parameters('azureIntegrationClientId')]",
         "aadClientSecret": "[parameters('azureIntegrationClientSecret')]",
         "masterVmSize": "Standard_DS2_v2",
