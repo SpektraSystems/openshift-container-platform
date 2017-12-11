@@ -132,17 +132,17 @@ az keyvault secret set --vault-name <keyvaultname> -n osdemovaultsecret --file ~
 Note:
 Substitute for key vault name in the above command with the name of the keyvault created earlier when executing.
 ```
-<img src="images/32store_key.jpg"/>
+<img src="../images/32store_key.jpg"/>
 
 ## Exercise 3: Deploy Openshift Cluster using ARM Template  
 In this exercise, you will deploy the Openshift cluster on Azure using ARM Template . 
-1.	**Launch** a browser and **Navigate** to https://github.com/SpektraSystems/openshift-container-platform
+1.	**Launch** a browser and **Navigate** to 'https://github.com/SpektraSystems/openshift-container-platform'
 
 2.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
-<img src="images/33deploytemplate.jpg"/>
+<img src="../images/33deploytemplate.jpg"/>
 
 3.	Now you will be directed to the Custom Deployment blade.
-<img src="images/34custom_deployment.jpg"/>
+<img src="../images/34custom_deployment.jpg"/>
 
 4.	In the **Custom Deployment** blade, **configure** the settings as follows:
 -	Resource Group : Choose Use **existing** and scroll down to see the Resource Group which is already there)
@@ -159,24 +159,24 @@ In this exercise, you will deploy the Openshift cluster on Azure using ARM Templ
 -	Aad Auth App Id : **Provide the Client ID of the AD App you created** 
 -	Aad Auth Client Secret : **Provide the secret key of the AD App**
 **And** accept the terms of conditions.
-<img src="images/images36custeomdeployment_purchase.png"/>
+<img src="../images/images36custeomdeployment_purchase.png"/>
 
 5.	And then **click** on **Purchase**.
 
 6.	Once the deployment starts, you can see the progress in the notification bar at the top of the Azure portal.
-<img src="images/37deployment_progress.jpg"/>
+<img src="../images/37deployment_progress.jpg"/>
 
 7.	Once the deployment is complete, you can see it in the notifications tab as Deployment succeeded. Now, **click** on **Go to resource group** from the notifications tab.
-<img src="images/38dep_succeed.jpg"/>
+<img src="../images/38dep_succeed.jpg"/>
 
 8.	In the resource group blade that come up, you can see the deployments as Succeeded, click on that.
-<img src="images/39resource_group.jpg"/>
+<img src="../images/39resource_group.jpg"/>
 
 9.	Select **Microsoft Template** from the new blade that come up.
-<img src="images/40dep_status.jpg"/>
+<img src="../images/40dep_status.jpg"/>
 
 10.	From the new blade that come up, you can see the outputs of the deployment.
-<img src="images/41dep_output.jpg"/>
+<img src="../images/41dep_output.jpg"/>
 
 11.	Copy the Openshift Console URL, Bastion DNS FQDN and OpenShift Master SSH by clicking on Copy to a text editor
 
@@ -186,7 +186,7 @@ Note: Skip the certificate warning
 ```
 
 13.	Now you will be directed to the Openshift Console Login page.
-<img src="images/42openshift_console.jpg"/>
+<img src="../images/42openshift_console.jpg"/>
 
 ```
 Note: If the above page comes up, then the deployment is working.
@@ -195,49 +195,49 @@ Note: If the above page comes up, then the deployment is working.
 ## Exercise 4: Configure Azure AD Authentication
 In this exercise, you will configure the AD App you created for Authentication into the Open Shift console.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="images/43az_dashboard.jpg"/>
+<img src="../images/43az_dashboard.jpg"/>
 
 2.	**Click** on the **Azure Active Directory** button in the **Menu navigation** bar to view the **Azure Active Directory** blade.
-<img src="images/44az_ad.jpg"/>
+<img src="../images/44az_ad.jpg"/>
 
 3.	You will be directed to the Azure Active Directory blade, **click** on **App registrations**.
-<img src="images/45app_reg.jpg"/>
+<img src="../images/45app_reg.jpg"/>
 
 4.	You will be redirected to the **App registrations** blade. You can search the App by typing the name of the App you created earlier, in the search field.
-<img src="images/46select_app.jpg"/>
+<img src="../images/46select_app.jpg"/>
 
 5.	Click on the app you created and you will be directed to the App blade.
-<img src="images/47app_blade.jpg"/>
+<img src="../images/47app_blade.jpg"/>
 
 6.	Now Click on Properties under Settings blade.
-<img src="images/48app_properties.jpg"/>
+<img src="../images/48app_properties.jpg"/>
 
 7.	In the **Properties** blade, **edit** as follows:
 -	App ID URI: (Provide the Open Shift Console URI)
 -	Home Page URL type: (Provide the Open Shift Console URI)
 And then **click** on **Save**.
-<img src="images/49save_properties.jpg"/>
+<img src="../images/49save_properties.jpg"/>
 
 8.	Once you save the properties, close the properties blade.
-<img src="images/50close_properties.jpg"/>
+<img src="../images/50close_properties.jpg"/>
 
 9.	Then you will be redirected to the Settings Blade of AD App. Click on the Reply URLs
-<img src="images/51reply_url.jpg"/>
+<img src="../images/51reply_url.jpg"/>
 
 10.	Now modify the openshift console url by removing the ‘console’ from the end and appending ‘oauth2callback/AzureAD’ to the url and provide it in the Reply URL blade that come up and then Click on Save. 
-<img src="images/52replyurl_save.jpg"/>
+<img src="../images/52replyurl_save.jpg"/>
 
 11.	Now to verify that the user is able to authenticate to Openshift console via Azure AD, **Open** a new tab in the browser and paste the Openshift Console URL which you copied earlier.
 ```
 Note: Skip the certificate warning
 ```
-<img src="images/67openshift_console.jpg"/>
+<img src="../images/67openshift_console.jpg"/>
 
 12.	Now click on AzureAD, you will be redirected to the Login Page. Provide the Azure credentials you received via email over there and click on Sign in.
-<img src="images/68sign_in.jpg"/>
+<img src="../images/68sign_in.jpg"/>
 
 13.	Once the login is successful, you will be redirected to the Openshift console.
-<img src="images/69openshift_cp.jpg"/>  
+<img src="../images/69openshift_cp.jpg"/>  
 
 [<Previous](/docs/Lab%201:%20Introduction-to-Azure-Portal.md) /
 [Next>](/docs/Lab%203:%20Deploying-workload-on-Openshift.md)
