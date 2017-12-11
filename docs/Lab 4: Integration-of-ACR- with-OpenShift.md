@@ -51,7 +51,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 13.	Now you will be redirected to the **Pods page**. Click on the pod with status as running.
 <img src="../images/115pods_page.jpg"/> 
 
-14.	Now you will be directed to the Details blade of the selected Pod.
+14.	Now you will be directed to the **Details blade** of the selected Pod.
 <img src="../images/116details_page.jpg"/> 
 
 15.	From the details blade, copy the Private Ip Address of the node in which the Pod is running.
