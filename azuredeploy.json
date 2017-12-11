@@ -558,8 +558,8 @@
                 "app": "[variables('redHatTags').app]"
             },
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+                "name": "Standard_LRS",
+                "tier": "Standard"
             }
         }, {
             "type": "Microsoft.Storage/storageAccounts",
@@ -573,8 +573,8 @@
                 "app": "[variables('redHatTags').app]"
             },
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+                "name": "Standard_LRS",
+                "tier": "Standard"
             }
         }, {
             "type": "Microsoft.Storage/storageAccounts",
