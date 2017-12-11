@@ -114,7 +114,7 @@ Note: 	Substitute for ImageName and ACR Login Server URI with the copied values 
 ```
 <img src="../images/127openshift_cmnd.jpg"/> 
 
-26.	Now execute the following command in the cloud shell to login to docker registry. When prompted, enter the password for ACR you copied earlier
+26.	Now **execute** the following command in the cloud shell to **login to docker registry**. When prompted, enter the **password** for ACR you copied earlier
 ```
 docker login <acrServerLoginServerUri> -u <ACRUsername>
 ```
