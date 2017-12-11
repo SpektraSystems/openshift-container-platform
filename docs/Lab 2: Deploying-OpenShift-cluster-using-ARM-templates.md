@@ -167,7 +167,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 6.	Once the deployment starts, you can see the progress in the notification bar at the top of the Azure portal.
 <img src="../images/37deployment_progress.jpg"/>
 
-7.	Once the deployment is complete, you can see it in the notifications tab as Deployment succeeded. Now, **click** on **Go to resource group** from the notifications tab.
+7.	Once the deployment is complete, you can see it in the notifications tab as **Deployment succeeded**. Now, **click** on **Go to resource group** from the notifications tab.
 <img src="../images/38dep_succeed.jpg"/>
 
 8.	In the resource group blade that come up, you can see the deployments as Succeeded, click on that.
