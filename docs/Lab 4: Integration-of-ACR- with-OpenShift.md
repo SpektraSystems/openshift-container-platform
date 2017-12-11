@@ -32,7 +32,7 @@ And then **Click** on **Create**.
 7.	Once the deployment is **successful**, click on Go to resource from the notifications tab.
 <img src="../images/109dep_status.jpg"/> 
 
-8.	Now you will be directed to the deployed container registry. Click on the Access keys under Settings section which is on the left side of the blade.
+8.	Now you will be directed to the deployed container registry. Click on the **Access keys** under Settings section which is on the left side of the blade.
 <img src="../images/110acr_accesskey.jpg"/> 
 
 9.	Now you will be directed to the Access keys blade.
