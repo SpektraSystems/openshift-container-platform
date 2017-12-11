@@ -210,7 +210,7 @@ In this exercise, you will configure the **AD App** you created for Authenticati
 5.	**Click** on the **app** you created and you will be directed to the App blade.
 <img src="../images/47app_blade.jpg"/>
 
-6.	Now Click on Properties under Settings blade.
+6.	Now Click on **Properties** under Settings blade.
 <img src="../images/48app_properties.jpg"/>
 
 7.	In the **Properties** blade, **edit** as follows:
