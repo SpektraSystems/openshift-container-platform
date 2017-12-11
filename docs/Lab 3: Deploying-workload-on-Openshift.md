@@ -29,7 +29,7 @@ In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configu
 4.	In the **Databases** blade appears. Select **Azure Cosmos DB**
 <img src="../images/73cosmosdb.jpg"/> 
 
-5.	In the create blade that come up, **configure** the **settings** as follows:
+5.	In the **create** blade that come up, **configure** the **settings** as follows:
 
 -	ID  :  **uniquename** (This name should be unique across Azure.)
 -	API :  **MongoDB**
