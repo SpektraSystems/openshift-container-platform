@@ -1,4 +1,7 @@
 # AEC Open Shift | Lab Guide
+
+***
+
 ## Contents
 <!-- TOC -->
 
