@@ -1,7 +1,8 @@
-[Lab 4: Integration of ACR with OpenShift](#lab-4-integration-of-acr-with-openshift)
-   1. [Exercise 1: Integrate ACR with OpenShift](#exercise-1-integrate-acr-with-openshift)
+## Lab 4: Integration of ACR with OpenShift
+
+* [Exercise 1: Integrate ACR with OpenShift](#exercise-1-integrate-acr-with-openshift)
    
-   ## Lab 4: Integration of ACR with OpenShift
+   
 ### Exercise 1: Integrate ACR with OpenShift 
 In this exercise, you will deploy an Azure Container Registry and integrate it with Open Shift. 
 
