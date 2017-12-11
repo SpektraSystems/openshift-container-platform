@@ -1,12 +1,9 @@
 ## Lab 2: Deploying Open Shift cluster using ARM templates
 
-***
-
-* [Lab 2: Deploying Open Shift cluster using ARM templates](#lab-2-deploying-open-shift-cluster-using-arm-templates)
-   * [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
-   * [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
-   * [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
-   * [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
+* [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
+* [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
+* [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
+* [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
    
  
 ### Lab Overview
@@ -242,5 +239,5 @@ Note: Skip the certificate warning
 13.	Once the login is successful, you will be redirected to the Openshift console.
 <img src="images/69openshift_cp.jpg"/>  
 
-[<Previous](/Lab%201:%20Introduction-to-Azure-Portal.md) /
-[Next>](/Lab%203:%20Deploying-workload-on-Openshift.md)
+[<Previous](/docs/Lab%201:%20Introduction-to-Azure-Portal.md) /
+[Next>](/docs/Lab%203:%20Deploying-workload-on-Openshift.md)
