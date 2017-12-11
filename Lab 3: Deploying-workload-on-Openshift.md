@@ -261,5 +261,5 @@ oc get routes
 11.	For run the application, copy the host/port and paste in browser and you can see the result.
 <img src="images/103browser_result.jpg"/> 
 
-[Previous](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
-[Next](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
+[<Previous](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
+[Next>](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
