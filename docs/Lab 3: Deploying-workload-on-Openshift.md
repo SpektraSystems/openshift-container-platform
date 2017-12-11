@@ -79,7 +79,7 @@ The easiest way to **download** the **CLI** is by accessing the **Command line t
 
 4.	Scroll down and click on **download**.
 
-5.	Once the file has been downloaded, you will need to extract the contents of the same at below directories.</br>
+5.	Once the file has been downloaded, you will need to **extract** the **contents** of the same at below directories.</br>
 Windows: 	**C:\OpenShift**</br>
 OS X: 		**~/OpenShift**</br>
 Linux: 		**~/OpenShift**</br>
