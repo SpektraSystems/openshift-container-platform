@@ -1,10 +1,14 @@
+## Lab 2: Deploying Open Shift cluster using ARM templates
+
+***
+
 * [Lab 2: Deploying Open Shift cluster using ARM templates](#lab-2-deploying-open-shift-cluster-using-arm-templates)
    * [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
    * [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
    * [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
    * [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
    
- ## Lab 2: Deploying Open Shift cluster using ARM templates
+ 
 ### Lab Overview
 In this lab, you will learn how to deploy the Open Shift Cluster on Azure using ARM templates.
 ### Prerequisites
