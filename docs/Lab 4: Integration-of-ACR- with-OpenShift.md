@@ -123,7 +123,7 @@ Note: Substitute for ACR Login Server URI and Username in the above command
 ```
 <img src="../images/128openshift_cmnd.jpg"/> 
 
-27.	Now execute the following command in the cloud shell to push the tagged image to azure container Registry. Copy the key into a text editor for later use.
+27.	Now **execute** the following command in the cloud shell to **push** the tagged **image** to azure container Registry. Copy the key into a text editor for later use.
 ```
 docker push <ACRLoginServerUri>/sample/todoapp
 ```
