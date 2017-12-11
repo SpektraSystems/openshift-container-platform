@@ -160,7 +160,7 @@ oc expose service welcome --name=welcomehost
 ``` 
 <img src="../images/90openshift_cmnd.jpg"/> 
 
-9.	Now go to your openshift platform and click on applications>hostname, you can access the application from the browser and see the result.
+9.	Now go to your **openshift platform** and click on applications>hostname, you can access the application from the browser and see the result.
 <img src="../images/91browser.jpg"/> 
 
 10.	To view all the components that were created in your project, run he command is given below.
