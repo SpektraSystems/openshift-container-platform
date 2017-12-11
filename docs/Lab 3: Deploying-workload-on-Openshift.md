@@ -77,7 +77,7 @@ The easiest way to **download** the **CLI** is by accessing the **Command line t
 3.	Now, you need to **login** in to your **red hat account**(one which has license for Openshift)
 <img src="../images/83redhatlogin.jpg"/>
 
-4.	scroll down and click on **download**.
+4.	Scroll down and click on **download**.
 
 5.	Once the file has been downloaded, you will need to extract the contents of the same at below directories.</br>
 Windows: 	**C:\OpenShift**</br>
