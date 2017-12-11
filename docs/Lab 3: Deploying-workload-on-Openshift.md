@@ -236,7 +236,7 @@ oc get pods
 ```
 <img src="../images/99list_pods.jpg"/> 
 
-8.	Now, add a route to expose that service, Run the following command is given below.
+8.	Now, add a **route** to expose that service, Run the following command is given below.
 ```
 oc get services
 ``` 
