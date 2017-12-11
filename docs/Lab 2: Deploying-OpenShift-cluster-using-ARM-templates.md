@@ -140,6 +140,7 @@ In this exercise, you will deploy the Openshift cluster on Azure using ARM Templ
 
 2.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
 <img src="../images/33deploytemplate.jpg"/>
+[![Deploy to Azure](../images/deploytoazure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/ShivaniThadiyan/openshift-container-platform/master/azuredeploy.json)
 
 3.	Now you will be directed to the Custom Deployment blade.
 <img src="../images/34custom_deployment.jpg"/>
