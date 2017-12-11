@@ -234,7 +234,7 @@ Note: Skip the certificate warning
 ```
 <img src="../images/67openshift_console.jpg"/>
 
-12.	Now click on **AzureAD**, you will be redirected to the Login Page. Provide the Azure credentials you received via email over there and click on Sign in.
+12.	Now click on **AzureAD**, you will be redirected to the **Login Page**. Provide the Azure credentials you received via email over there and click on **Sign in**.
 <img src="../images/68sign_in.jpg"/>
 
 13.	Once the login is successful, you will be redirected to the Openshift console.
