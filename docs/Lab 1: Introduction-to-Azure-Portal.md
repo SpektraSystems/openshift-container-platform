@@ -43,7 +43,7 @@ In this exercise, you will verify the type of role you are assigned in this Subs
 
 ![Azure Dashboard](../images/6azure_dashboard.jpg)
 
-2. **Click** on **Microsoft Azure**  at the top left corner of the screen, to view the Dashboard.
+2. **Click** on **Microsoft Azure** at the top left corner of the screen, to view the Dashboard.
 
 ![Microsoft Azure](../images/7microsoftazure.jpg)
 
