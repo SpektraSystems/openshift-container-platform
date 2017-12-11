@@ -136,7 +136,7 @@ oc status
 ``` 
 <img src="../images/86openshift_cmnd.jpg"/> 
 
-5.	Create new application using below command 
+5.	Create new **application** using below command 
 ```
 oc new-app redhatworkshops/welcome-php --name=welcome
 ``` 
