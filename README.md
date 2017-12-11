@@ -246,6 +246,8 @@ In this exercise, you will deploy the Openshift cluster on Azure using ARM Templ
 -	Rhsm Pool Id: **Provide the pool Id of Redhat OpenShift Subscription**
 -	Key Vault Name : **Provide the Key Vault name you provided**
 -	Key Vault Secret : **osdemovaultsecret**
+-  Azure Integration Cient Id : **Provide the Application ID which is received via email**
+-  Azure Integration Client Secret : **Provide the Application Secret Key which is received via email**
 -	Aad Auth App Name : **Provide the name of the AD App you created** 
 -	Aad Auth App Id : **Provide the Client ID of the AD App you created** 
 -	Aad Auth Client Secret : **Provide the secret key of the AD App**
