@@ -138,7 +138,7 @@ Note: Substitute for ACRLoginServerUri in the above command
 29.	In the new blade that come up, search in the Filter box at the top “Container registries” and then Select **Container Registries** from the search result.
 <img src="../images/131search_acr.jpg"/> 
 
-30.	On the blade, select the Container Registry which you have created.
+30.	On the blade, select the **Container Registry** which you have created.
 <img src="../images/132select_acr.jpg"/> 
 
 31.	Now you will be directed to the Overview page of the container registry.
