@@ -67,7 +67,7 @@ OpenShift ships with a feature rich web console as well as command line tools to
 -	Linux
 
 #### Installing the CLI
-The easiest way to download the CLI is by accessing the **Command line tools** page on the web console.
+The easiest way to **download** the **CLI** is by accessing the **Command line tools** page on the web console.
 1.	Click on down arrow key as shown in below screenshot and click on **Command Line Tools**.
 <img src="../images/81cl_tools.jpg"/>  
 
