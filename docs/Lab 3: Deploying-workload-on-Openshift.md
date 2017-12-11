@@ -50,7 +50,7 @@ And then Click on **Create**.
 8.	Now you will be directed to the deployed database.
 <img src="../images/77database.jpg"/> 
 
-9.	Now, click on Connection String under settings menu on the left side of the blade.
+9.	Now, click on **Connection String** under settings menu on the left side of the blade.
 <img src="../images/78conn_string.jpg"/> 
 
 10.	Now from the new blade that come up, copy the connection string for later use.
