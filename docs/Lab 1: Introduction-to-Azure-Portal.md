@@ -32,7 +32,7 @@ Note : At the first login, you may have to change the password, if asked for.
 
 ![Azure Login](../images/4update_password.jpg)
 
-3.	Now, you will be directed to the Azure Dashboard
+3.	Now, you will be directed to the **Azure Dashboard**
 
 ![Azure Dashboard](../images/5azure_dashboard.jpg)
 
