@@ -117,7 +117,7 @@ $ export PATH=$PATH:~/OpenShift
 
 ### Exercise 3: Deployment in OpenShift using CLI
 In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker image.
-1.	Launch the command line and run below command and enter username and password as you have received in your lab mail.
+1.	Launch the command line and run below command and enter **username** and password as you have received in your lab mail.
 ```
 oc login <URL of Openshift:8443>
 ```
