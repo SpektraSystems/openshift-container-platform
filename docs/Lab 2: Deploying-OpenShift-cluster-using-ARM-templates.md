@@ -9,7 +9,7 @@
 ### Lab Overview
 In this lab, you will learn how to deploy the Open Shift Cluster on Azure using ARM templates.
 ### Prerequisites
-•	Lab 1 must be completed
+*	Lab 1 must be completed
 
 ### Time Estimate
 120 minutes
