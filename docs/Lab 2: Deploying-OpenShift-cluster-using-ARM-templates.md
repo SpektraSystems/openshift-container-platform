@@ -176,7 +176,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 9.	Select **Microsoft Template** from the new blade that come up.
 <img src="../images/40dep_status.jpg"/>
 
-10.	From the new blade that come up, you can see the outputs of the deployment.
+10.	From the new blade that come up, you can see the **outputs** of the deployment.
 <img src="../images/41dep_output.jpg"/>
 
 11.	Copy the Openshift Console URL, Bastion DNS FQDN and OpenShift Master SSH by clicking on Copy to a text editor
