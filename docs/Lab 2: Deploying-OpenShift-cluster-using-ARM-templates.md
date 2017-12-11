@@ -124,7 +124,7 @@ The copied SSH Key should be made into a single line. You will need this key for
 ```
 <img src="../images/31display_publickey.jpg"/>
 
-9.	Now **execute** the following command to store the generated key in the key vault.
+9.	Now **execute** the following command to **store the generated key in the key vault.
 ```
 az keyvault secret set --vault-name <keyvaultname> -n osdemovaultsecret --file ~/.ssh/id_rsa
 ```
