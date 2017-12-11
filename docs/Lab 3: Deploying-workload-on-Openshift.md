@@ -199,7 +199,7 @@ oc get builds
 ``` 
 <img src="../images/97list_build.jpg"/>
 
-5.	Run the command as shown below to look at the build logs.
+5.	Run the command as shown below to look at the **build logs**.
 ```
 oc  logs build/time-1 
 ```
