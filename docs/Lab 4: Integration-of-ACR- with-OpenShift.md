@@ -141,7 +141,7 @@ Note: Substitute for ACRLoginServerUri in the above command
 30.	On the blade, select the **Container Registry** which you have created.
 <img src="../images/132select_acr.jpg"/> 
 
-31.	Now you will be directed to the Overview page of the container registry.
+31.	Now you will be directed to the **Overview page** of the container registry.
 <img src="../images/133overview_acr.jpg"/> 
 
 32.	Now to check whether the image has been pushed to the repository, you can click on Repositories under Services on the menu on left side of the blade.
