@@ -91,7 +91,7 @@ In this exercise, you will configure **Azure Bash Cloud Shell** and create a **K
 4.	In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and **click** on **Create Storage**.
 <img src="../images/27create_storage.jpg"/>
 
-5.	In a few minutes, the bash shell will come up.
+5.	In a few minutes, the **bash shell** will come up.
 <img src="../images/28bashshell.jpg"/>
 
 6.	Now execute the following command in the cloud shell to create a key vault in the existing resource group.
