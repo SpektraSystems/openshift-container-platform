@@ -1,4 +1,4 @@
-2. [Lab 1: Introduction to Azure Portal](#lab-1-introduction-to-azure-portal)	
+ [Lab 1: Introduction to Azure Portal](#lab-1-introduction-to-azure-portal)	
    1. [Exercise 1: Log into your Azure Portal](#exercise-1-log-into-your-azure-portal)
    2. [Exercise 2: Verify access to the Subscription](#exercise-2-verify-access-to-the-subscription)
    
