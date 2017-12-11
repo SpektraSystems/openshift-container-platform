@@ -75,7 +75,7 @@ Note: Substitute in the above command with the value of copied DNS Name of Basti
 ```
 <img src="../images/121openshift_cmnd.jpg"/> 
 
-20.	Now execute the following command in the **cloud shell** to pull a **docker image**. Copy the key into a text editor for later use.
+20.	Now **execute** the following command in the cloud shell to pull a **docker image**. Copy the key into a text editor for later use.
 ```
 ssh ocpadmin@<copiedPrivateIpOfNode>
 ```
@@ -84,7 +84,7 @@ Note: Substitute in the above command with the value of copied Private IP Addres
 ``` 
 <img src="../images/122openshift_cmnd.jpg"/> 
 
-21.	Now execute the following command in the cloud shell to login in to root account. 
+21.	Now **execute** the following command in the cloud shell to **login** in to root account. 
 ```
 sudo su -
 ```
