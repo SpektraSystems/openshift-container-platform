@@ -193,7 +193,7 @@ oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
  ```
 <img src="../images/96buildconfig.jpg"/>
 
-4.	To view the list of build, run command is given below.
+4.	To view the list of **build**, run command is given below.
 ```
 oc get builds
 ``` 
