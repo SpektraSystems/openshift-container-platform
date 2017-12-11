@@ -10,7 +10,7 @@ This lab will take you through Azure login and portal experience.
 -	You should have registered in the training portal https://azuretraining.spektrasystems.com and received the confirmation message with the credentials to login to the [Azure portal](http://portal.azure.com).
 -	Red Hat Customer Portal login credentials so that the Azure instances can be registered with Red Hat Subscription Manager properly, and you must have enough OpenShift Container Platform entitlements to cover the chosen configuration.
 
-![Registration Notification](images/2registration_notification.jpg)
+![Registration Notification](../images/2registration_notification.jpg)
 
 
 ### Time Estimate
@@ -22,7 +22,7 @@ This lab will take you through Azure login and portal experience.
 In this exercise, you will log into the Azure Portal using your Azure credentials.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
-![Azure Login](images/3azure_login.jpg)
+![Azure Login](../images/3azure_login.jpg)
 
 ```
 Note : At the first login, you may have to change the password, if asked for.
@@ -30,34 +30,34 @@ Note : At the first login, you may have to change the password, if asked for.
 
 2.	**Enter** a new **password**. Then select **Update password and sign in**.
 
-![Azure Login](images/4update_password.jpg)
+![Azure Login](../images/4update_password.jpg)
 
 3.	Now, you will be directed to the Azure Dashboard
 
-![Azure Dashboard](images/5azure_dashboard.jpg)
+![Azure Dashboard](../images/5azure_dashboard.jpg)
 
 ### Exercise 2: Verify access to the Subscription
 In this exercise, you will verify the type of role you are assigned in this Subscription.
 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 
-![Azure Dashboard](images/6azure_dashboard.jpg)
+![Azure Dashboard](../images/6azure_dashboard.jpg)
 
 2. **Click** on **Microsoft Azure**  at the top left corner of the screen, to view the Dashboard.
 
-![Microsoft Azure](images/7microsoftazure.jpg)
+![Microsoft Azure](../images/7microsoftazure.jpg)
 
 3.	To toggle **show/hide** the Portal menu options with icon, **Click** on the **Show Menu** button. 
 
-![Azure Menu](images/8azure_menu.jpg)
+![Azure Menu](../images/8azure_menu.jpg)
 
 4.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
-"![Resource Group](images/9resourcegroup.jpg)
+"![Resource Group](../images/9resourcegroup.jpg)
 
 5.	You will see a Resource Group which you have access to, **click** on it.
 
-![Select RG](images/10select_rg.jpg)
+![Select RG](../images/10select_rg.jpg)
 
 ```
 Note:
