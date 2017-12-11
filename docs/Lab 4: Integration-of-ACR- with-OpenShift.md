@@ -42,7 +42,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 10.	Now, open a new tab in a browser and navigate to the Openshift console url. **Login** into the **Openshift console** using the credentials you received via email by Selecting AzureAD as authentication type.
 <img src="../images/112openshift_console.jpg"/> 
 
-11.	Now you will be redirected to the My Projects page, where you will select the Project you created earlier.
+11.	Now you will be redirected to the **My Projects** page, where you will select the Project you created earlier.
 <img src="../images/113myproject_page.jpg"/> 
 
 12.	Once you are in the project page, click on Applications from the left side of the menu and in the new menu that comes up, click on Pods.
