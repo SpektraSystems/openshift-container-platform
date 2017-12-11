@@ -170,7 +170,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 7.	Once the deployment is complete, you can see it in the notifications tab as **Deployment succeeded**. Now, **click** on **Go to resource group** from the notifications tab.
 <img src="../images/38dep_succeed.jpg"/>
 
-8.	In the resource group blade that come up, you can see the deployments as Succeeded, click on that.
+8.	In the resource group blade that come up, you can see the **deployments** as **Succeeded**, click on that.
 <img src="../images/39resource_group.jpg"/>
 
 9.	Select **Microsoft Template** from the new blade that come up.
