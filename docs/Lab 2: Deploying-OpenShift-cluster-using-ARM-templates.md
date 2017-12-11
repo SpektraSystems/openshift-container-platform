@@ -207,7 +207,7 @@ In this exercise, you will configure the **AD App** you created for Authenticati
 4.	You will be redirected to the **App registrations** blade. You can search the App by typing the name of the App you created earlier, in the search field.
 <img src="../images/46select_app.jpg"/>
 
-5.	Click on the app you created and you will be directed to the App blade.
+5.	**Click** on the **app** you created and you will be directed to the App blade.
 <img src="../images/47app_blade.jpg"/>
 
 6.	Now Click on Properties under Settings blade.
