@@ -142,7 +142,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 
 [![Deploy to Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json)
 
-3.	Now you will be directed to the Custom Deployment blade.
+3.	Now you will be directed to the **Custom Deployment blade**.
 <img src="../images/34custom_deployment.jpg"/>
 
 4.	In the **Custom Deployment** blade, **configure** the settings as follows:
