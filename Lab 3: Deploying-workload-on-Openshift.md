@@ -2,11 +2,10 @@
 
 ***
 
-* [Lab 3: Deploying workload on Openshift](#lab-3-deploying-workload-on-openshift)
-   * [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
-   * [Exercise 2: Installing OpenShift CLI](#exercise-2-installing-openshift-cli)
-   * [Exercise 3: Deployment in OpenShift using CLI](#exercise-3-deployment-in-openshift-using-cli)
-   * [Exercise 4: Create an App using Docker build](#exercise-4-create-an-app-using-docker-build)
+* [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
+* [Exercise 2: Installing OpenShift CLI](#exercise-2-installing-openshift-cli)
+* [Exercise 3: Deployment in OpenShift using CLI](#exercise-3-deployment-in-openshift-using-cli)
+* [Exercise 4: Create an App using Docker build](#exercise-4-create-an-app-using-docker-build)
 
 
 
