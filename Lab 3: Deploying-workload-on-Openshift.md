@@ -1,8 +1,8 @@
 [Lab 3: Deploying workload on Openshift](#lab-3-deploying-workload-on-openshift)
-   1. [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
-   2. [Exercise 2: Installing OpenShift CLI](#exercise-2-installing-openshift-cli)
-   3. [Exercise 3: Deployment in OpenShift using CLI](#exercise-3-deployment-in-openshift-using-cli)
-   4. [Exercise 4: Create an App using Docker build](#exercise-4-create-an-app-using-docker-build)
+   * [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
+   * [Exercise 2: Installing OpenShift CLI](#exercise-2-installing-openshift-cli)
+   * [Exercise 3: Deployment in OpenShift using CLI](#exercise-3-deployment-in-openshift-using-cli)
+   * [Exercise 4: Create an App using Docker build](#exercise-4-create-an-app-using-docker-build)
 
 
 ## Lab 3: Deploying workload on Openshift
@@ -258,3 +258,5 @@ oc get routes
 11.	For run the application, copy the host/port and paste in browser and you can see the result.
 <img src="images/103browser_result.jpg"/> 
 
+[Previous](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
+[Next](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
