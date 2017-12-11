@@ -19,7 +19,7 @@ This lab will take you through Azure login and portal experience.
 
 ### Exercise 1: Log into your Azure Portal
 
-In this exercise, you will log into the Azure Portal using your Azure credentials.
+In this exercise, you will log into the **Azure Portal** using your Azure credentials.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 ![Azure Login](../images/3azure_login.jpg)
@@ -32,18 +32,18 @@ Note : At the first login, you may have to change the password, if asked for.
 
 ![Azure Login](../images/4update_password.jpg)
 
-3.	Now, you will be directed to the Azure Dashboard
+3.	Now, you will be directed to the **Azure Dashboard**
 
 ![Azure Dashboard](../images/5azure_dashboard.jpg)
 
 ### Exercise 2: Verify access to the Subscription
 In this exercise, you will verify the type of role you are assigned in this Subscription.
 
-1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
+1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email. 
 
 ![Azure Dashboard](../images/6azure_dashboard.jpg)
 
-2. **Click** on **Microsoft Azure**  at the top left corner of the screen, to view the Dashboard.
+2. **Click** on **Microsoft Azure** at the top left corner of the screen, to view the Dashboard.
 
 ![Microsoft Azure](../images/7microsoftazure.jpg)
 
@@ -55,7 +55,7 @@ In this exercise, you will verify the type of role you are assigned in this Subs
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
-5.	You will see a Resource Group which you have access to, **click** on it.
+5.	You will see a **Resource Group** which you have access to, **click** on it.
 
 ![Select RG](../images/10select_rg.jpg)
 
@@ -64,7 +64,7 @@ Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
 ```
 
-6.	From the Resource Group blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
+6.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
 
 ![Access Control](https://github.com/ShivaniThadiyan/openshift-container-platform/blob/master/images/11access_control.jpg)
 
