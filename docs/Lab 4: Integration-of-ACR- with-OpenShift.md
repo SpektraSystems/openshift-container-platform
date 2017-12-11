@@ -35,7 +35,7 @@ And then **Click** on **Create**.
 8.	Now you will be directed to the deployed container registry. Click on the **Access keys** under Settings section which is on the left side of the blade.
 <img src="../images/110acr_accesskey.jpg"/> 
 
-9.	Now you will be directed to the Access keys blade.
+9.	Now you will be directed to the **Access keys** blade.
 Copy the Registry name, Login server, Username and password to a text editor for later use.
 <img src="../images/111acr_copy.jpg"/> 
 
