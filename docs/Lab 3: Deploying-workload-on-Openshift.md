@@ -230,7 +230,7 @@ oc get dc -o json
 }
 ```
 
-7.	Now, you can get the list of pods, Run the following command is given below.
+7.	Now, you can get the **list of pods**, Run the following command is given below.
 ```
 oc get pods
 ```
