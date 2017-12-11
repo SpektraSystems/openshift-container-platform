@@ -187,7 +187,7 @@ oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
 ```
 <img src="../images/95openshift_cmnd.jpg"/>
 
-3.	Now, look at the buildconfig by running the command shown below.
+3.	Now, look at the **buildconfig** by running the command shown below.
  ```
  oc get bc time -o json
  ```
