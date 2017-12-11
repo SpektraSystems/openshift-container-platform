@@ -169,7 +169,7 @@ oc get all
 ``` 
 <img src="../images/92vew_allproject.jpg"/> 
 
-11.	Now you can delete all these components by running one command.
+11.	Now you can **delete** all these components by running one command.
 ```
 oc get all --all
 ```
