@@ -105,7 +105,7 @@ Provide the existing Resource Group name, it’s location and a unique name for 
 ```
 <img src="../images/29create_keyvault_bash.jpg"/>
 
-7.	Now execute the following command in the cloud shell to generate ssh key.
+7.	Now **execute** the following command in the **cloud shell** to **generate ssh key.
 ```
 ssh-keygen
 ```
