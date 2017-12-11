@@ -56,7 +56,7 @@ And then Click on **Create**.
 10.	Now from the new blade that come up, **copy** the connection string for later use.
 <img src="../images/79copy_connstring.jpg"/>  
 
-11.	Now, open a new tab in a broswer and **navigate** to the Openshift console url. Login into the Openshift console using the credentials you received via email by Selecting AzureAD as authentication type.
+11.	Now, open a new tab in a broswer and **navigate** to the **Openshift console url**. **Login** into the Openshift console using the **credentials** you received via email by Selecting AzureAD as authentication type.
 <img src="../images/80openshift_console.jpg"/>  
 
 ### Exercise 2: Installing OpenShift CLI
