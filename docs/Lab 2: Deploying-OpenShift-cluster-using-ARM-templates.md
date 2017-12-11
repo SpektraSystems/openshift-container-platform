@@ -50,7 +50,7 @@ If the app has been created, you can see it in the results as shown above.
 
 7.	Click on the **app** you **created** and you will be directed to the App blade.
 
-8.	Copy the Application Id and save it in a notepad or any text editor for later use.
+8.	Copy the **Application Id** and save it in a notepad or any text editor for later use.
 <img src="../images/19app_id.jpg"/>
 
 9.	Now, **Click** on **Keys** in the settings blade.
