@@ -194,7 +194,7 @@ Note: If the above page comes up, then the deployment is working.
 ```
 
 ## Exercise 4: Configure Azure AD Authentication
-In this exercise, you will configure the AD App you created for Authentication into the Open Shift console.
+In this exercise, you will configure the **AD App** you created for Authentication into the Open Shift console.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/43az_dashboard.jpg"/>
 
