@@ -1,13 +1,9 @@
 ## Lab 3: Deploying workload on Openshift
 
-***
-
 * [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
 * [Exercise 2: Installing OpenShift CLI](#exercise-2-installing-openshift-cli)
 * [Exercise 3: Deployment in OpenShift using CLI](#exercise-3-deployment-in-openshift-using-cli)
 * [Exercise 4: Create an App using Docker build](#exercise-4-create-an-app-using-docker-build)
-
-
 
 ### Lab overview
 In this lab, we will deploy a workload on OpenShift.
@@ -22,16 +18,16 @@ In this lab, we will deploy a workload on OpenShift.
 In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configure it to use the DB on Azure.
 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="images/70az_dashboard.jpg"/>
+<img src="../images/70az_dashboard.jpg"/>
 
 2.	Click on +New on the left side of the Dashboard.
-<img src="images/71new.jpg"/> 
+<img src="../images/71new.jpg"/> 
 
 3.	In the **New** blade that come up, Select **Databases**. 
-<img src="images/72newdatabase.jpg"/> 
+<img src="../images/72newdatabase.jpg"/> 
 
 4.	In the **Databases** blade appears. Select **Azure Cosmos DB**
-<img src="images/73cosmosdb.jpg"/> 
+<img src="../images/73cosmosdb.jpg"/> 
 
 5.	In the create blade that come up, configure the settings as follows:
 
@@ -41,27 +37,27 @@ In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configu
 -	Resource Group : Choose Use existing and scroll down to see the Resource Group which is already there and select that)
 -	Location: **South Central US**
 
-<img src="images/74cosmosdb_create.jpg"/> 
+<img src="../images/74cosmosdb_create.jpg"/> 
 
 And then Click on Create.
 
 6.	You can see the status of the deployment from the notifications tab on top of the page.
-<img src="images/75notification.jpg"/> 
+<img src="../images/75notification.jpg"/> 
 
 7.	Once the deployment is successful, click on Go to resource from the notifications tab.
-<img src="images/76dep_status.jpg"/>
+<img src="../images/76dep_status.jpg"/>
 
 8.	Now you will be directed to the deployed database.
-<img src="images/77database.jpg"/> 
+<img src="../images/77database.jpg"/> 
 
 9.	Now, click on Connection String under settings menu on the left side of the blade.
-<img src="images/78conn_string.jpg"/> 
+<img src="../images/78conn_string.jpg"/> 
 
 10.	Now from the new blade that come up, copy the connection string for later use.
-<img src="images/79copy_connstring.jpg"/>  
+<img src="../images/79copy_connstring.jpg"/>  
 
 11.	Now, open a new tab in a broswer and navigate to the Openshift console url. Login into the Openshift console using the credentials you received via email by Selecting AzureAD as authentication type.
-<img src="images/80openshift_console.jpg"/>  
+<img src="../images/80openshift_console.jpg"/>  
 
 ### Exercise 2: Installing OpenShift CLI
 #### COMMAND LINE INTERFACE
@@ -73,13 +69,13 @@ OpenShift ships with a feature rich web console as well as command line tools to
 #### Installing the CLI
 The easiest way to download the CLI is by accessing the **Command line tools** page on the web console.
 1.	Click on down arrow key as shown in below screenshot and click on **Command Line Tools**.
-<img src="images/81cl_tools.jpg"/>  
+<img src="../images/81cl_tools.jpg"/>  
 
 2.	On **Command Line Tools** page, click on **Latest Release**.
-<img src="images/82cl_latestrelease.jpg"/>  
+<img src="../images/82cl_latestrelease.jpg"/>  
 
 3.	Now, you need to login in to your red hat account(one which has license for Openshift)
-<img src="images/83redhatlogin.jpg"/>
+<img src="../images/83redhatlogin.jpg"/>
 
 4.	scroll down and click on download.
 
@@ -117,7 +113,7 @@ $ export PATH=$PATH:~/OpenShift
 ```
 
 7.	Now run below command on shell/command prompt to check the version of OpenShift client an to verify that it is successfully configured.
-<img src="images/84check_version.jpg"/>  
+<img src="../images/84check_version.jpg"/>  
 
 ### Exercise 3: Deployment in OpenShift using CLI
 In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker image.
@@ -127,7 +123,7 @@ oc login <URL of Openshift:8443>
 ```
 
 2.	Create an OpenShift project by running below command. 
-<img src="images/85openshift_cmnd.jpg"/> 
+<img src="../images/85openshift_cmnd.jpg"/> 
 
 3.	Now you can see the project is created successfully.
 ```
@@ -138,76 +134,76 @@ oc get projects
 ```
 oc status
 ``` 
-<img src="images/86openshift_cmnd.jpg"/> 
+<img src="../images/86openshift_cmnd.jpg"/> 
 
 5.	Create new application using below command 
 ```
 oc new-app redhatworkshops/welcome-php --name=welcome
 ``` 
-<img src="images/87openshift_cmnd.jpg"/> 
+<img src="../images/87openshift_cmnd.jpg"/> 
 
 6.	The above command uses the docker image to deploy a docker container in a pod. you will notice that a deployed pod runs and it starts an application pod as shown below.
 ```
 oc get pods
 ``` 
-<img src="images/88openshift_cmnd.jpg"/> 
+<img src="../images/88openshift_cmnd.jpg"/> 
 
 7.	To view the list of services in the project, run the following command below
 ```
 oc get services
 ``` 
-<img src="images/89openshift_cmnd.jpg"/> 
+<img src="../images/89openshift_cmnd.jpg"/> 
 
 8.	Now add a route to the service with the following command.
 ```
 oc expose service welcome --name=welcomehost 
 ``` 
-<img src="images/90openshift_cmnd.jpg"/> 
+<img src="../images/90openshift_cmnd.jpg"/> 
 
 9.	Now go to your openshift platform and click on applications>hostname, you can access the application from the browser and see the result.
-<img src="images/91browser.jpg"/> 
+<img src="../images/91browser.jpg"/> 
 
 10.	To view all the components that were created in your project, run he command is given below.
 ```
 oc get all
 ``` 
-<img src="images/92vew_allproject.jpg"/> 
+<img src="../images/92vew_allproject.jpg"/> 
 
 11.	Now you can delete all these components by running one command.
 ```
 oc get all --all
 ```
-<img src="images/93delete.jpg"/> 
+<img src="../images/93delete.jpg"/> 
 
 ### Exercise 4: Create an App using Docker build
 In this exercise, you will learn how to create an application from a Dockerfile. OpenShift takes Dockerfile as an input and generates your application docker image for you.
 
 1.	You can create a new project or use existing project that created in exercise 3. To make sure you have the existing project run the following command.
-<img src="images/94openshift_cmnd.jpg"/>
+<img src="../images/94openshift_cmnd.jpg"/>
 
 2.	Now, we are using the Dockerfile as the basis to create a docker image for application. Run the command is given below.
 ```
 oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
 ```
-<img src="images/95openshift_cmnd.jpg"/>
+<img src="../images/95openshift_cmnd.jpg"/>
 
 3.	Now, look at the buildconfig by running the command shown below.
  ```
  oc get bc time -o json
  ```
-<img src="images/96buildconfig.jpg"/>
+<img src="../images/96buildconfig.jpg"/>
 
 4.	To view the list of build, run command is given below.
 ```
 oc get builds
 ``` 
-<img src="images/97list_build.jpg"/>
+<img src="../images/97list_build.jpg"/>
 
 5.	Run the command as shown below to look at the build logs.
 ```
 oc  logs build/time-1 
 ```
-<img src="images/98build_logs.jpg"/>
+<img src="../images/98build_logs.jpg"/>
 
 6.	Now we will deployment configuration by running the following command.
 ```
@@ -238,28 +234,28 @@ oc get dc -o json
 ```
 oc get pods
 ```
-<img src="images/99list_pods.jpg"/> 
+<img src="../images/99list_pods.jpg"/> 
 
 8.	Now, add a route to expose that service, Run the following command is given below.
 ```
 oc get services
 ``` 
-<img src="images/100expose_services.jpg"/> 
+<img src="../images/100expose_services.jpg"/> 
 
 9.	Now, we expose the service as a route.
 ```
 oc expose service time
 ```
-<img src="images/101expose_service_route.jpg"/> 
+<img src="../images/101expose_service_route.jpg"/> 
 
 10.	Now, we check the route is exposed.
 ```
 oc get routes
 ```
-<img src="images/102check_route.jpg"/> 
+<img src="../images/102check_route.jpg"/> 
 
 11.	For run the application, copy the host/port and paste in browser and you can see the result.
-<img src="images/103browser_result.jpg"/> 
+<img src="../images/103browser_result.jpg"/> 
 
-[<Previous](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
-[Next>](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
+[<Previous](/docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
+[Next>](/docs/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
