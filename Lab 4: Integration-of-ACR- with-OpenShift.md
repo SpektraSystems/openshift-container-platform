@@ -1,5 +1,7 @@
 ## Lab 4: Integration of ACR with OpenShift
 
+***
+
 * [Exercise 1: Integrate ACR with OpenShift](#exercise-1-integrate-acr-with-openshift)
    
    
