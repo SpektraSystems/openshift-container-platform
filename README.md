@@ -18,8 +18,8 @@
    2. [Exercise 2: Installing OpenShift CLI](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-2-installing-openshift-cli)
    3. [Exercise 3: Deployment in OpenShift using CLI](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-3-deployment-in-openshift-using-cli)
    4. [Exercise 4: Create an App using Docker build](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-4-create-an-app-using-docker-build)
-5. [Lab 4: Integration of ACR with OpenShift](#lab-4-integration-of-acr-with-openshift)
-   1. [Exercise 1: Integrate ACR with OpenShift](#exercise-1-integrate-acr-with-openshift)
+5. [Lab 4: Integration of ACR with OpenShift](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md)
+   1. [Exercise 1: Integrate ACR with OpenShift](/Lab%204:%20Integration-of-ACR-%20with-OpenShift.md#exercise-1-integrate-acr-with-openshift)
 <!-- /TOC -->
 
 ## Workshop Architecture and Objective
