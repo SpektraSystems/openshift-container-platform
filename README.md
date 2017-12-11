@@ -162,6 +162,13 @@ And **Click** on **Save.**
 Copy the value into the text editor where you saved the value of Application Id for later use.
 <img src="images/22copy_key.jpg"/>
 
+12.   Now go back to the setting blade of the App and Click on Required permissions.
+<img src="images/53req_permission.jpg"/>
+
+13.   Click on Grant Permissions in the blade that come up and then **Click** on **Yes**
+<img src="images/54grant_permission.jpg"/>
+<img src="images/55grantpermission_yes.jpg"/>
+
 ### Exercise 2: Create a Keyvault 
 In this exercise, you will configure Azure Bash Cloud Shell and create a Key vault in the existing resource group and store the SSH key inside the vault. 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
@@ -311,24 +318,16 @@ And then **click** on **Save**.
 10.	Now modify the openshift console url by removing the ‘console’ from the end and appending ‘oauth2callback/AzureAD’ to the url and provide it in the Reply URL blade that come up and then Click on Save. 
 <img src="images/52replyurl_save.jpg"/>
 
-11.	Now go back to the setting blade of the App and Click on Required permissions.
-<img src="images/53req_permission.jpg"/>
-
-12.	Click on Grant Permissions in the blade that come up and then **Click** on **Yes**
-<img src="images/54grant_permission.jpg"/>
-<img src="images/55grantpermission_yes.jpg"/>
-
-
-13.	Now to verify that the user is able to authenticate to Openshift console via Azure AD, **Open** a new tab in the browser and paste the Openshift Console URL which you copied earlier.
+11.	Now to verify that the user is able to authenticate to Openshift console via Azure AD, **Open** a new tab in the browser and paste the Openshift Console URL which you copied earlier.
 ```
 Note: Skip the certificate warning
 ```
 <img src="images/67openshift_console.jpg"/>
 
-14.	Now click on AzureAD, you will be redirected to the Login Page. Provide the Azure credentials you received via email over there and click on Sign in.
+12.	Now click on AzureAD, you will be redirected to the Login Page. Provide the Azure credentials you received via email over there and click on Sign in.
 <img src="images/68sign_in.jpg"/>
 
-15.	Once the login is successful, you will be redirected to the Openshift console.
+13.	Once the login is successful, you will be redirected to the Openshift console.
 <img src="images/69openshift_cp.jpg"/>
  
  
