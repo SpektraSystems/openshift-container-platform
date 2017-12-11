@@ -36,7 +36,7 @@ And then **Click** on **Create**.
 <img src="../images/110acr_accesskey.jpg"/> 
 
 9.	Now you will be directed to the **Access keys** blade.
-Copy the Registry name, Login server, Username and password to a text editor for later use.
+Copy the **Registry name**, **Login server**, **Username** and **password** to a text editor for later use.
 <img src="../images/111acr_copy.jpg"/> 
 
 10.	Now, open a new tab in a browser and navigate to the Openshift console url. Login into the Openshift console using the credentials you received via email by Selecting AzureAD as authentication type.
