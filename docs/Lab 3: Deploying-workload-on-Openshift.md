@@ -130,7 +130,7 @@ oc login <URL of Openshift:8443>
 oc get projects
 ```
 
-4.	You can also check the status of the project by running the following command.
+4.	You can also check the **status** of the **project** by running the following command.
 ```
 oc status
 ``` 
