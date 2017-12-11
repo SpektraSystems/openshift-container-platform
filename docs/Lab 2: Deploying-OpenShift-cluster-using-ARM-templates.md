@@ -135,7 +135,7 @@ Substitute for key vault name in the above command with the name of the keyvault
 <img src="../images/32store_key.jpg"/>
 
 ## Exercise 3: Deploy Openshift Cluster using ARM Template  
-In this exercise, you will deploy the Openshift cluster on Azure using ARM Template . 
+In this exercise, you will deploy the **Openshift cluster** on Azure using ARM Template . 
 1.	**Launch** a browser and **Navigate** to `https://github.com/SpektraSystems/openshift-container-platform`
 
 2.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
