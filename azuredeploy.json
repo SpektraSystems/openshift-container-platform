@@ -194,7 +194,7 @@
             "app": "OpenShift",
             "provider": "9d2c71fc-96ba-4b4a-93b3-14def5bc96fc"
         },
-        "bastionVmSize": "Standard_D2_v2",
+        "bastionVmSize": "Standard_DS2_v2",
         "imageReference": "[variables('osType')]",
         "singlequote": "'",
 
@@ -483,8 +483,8 @@
                 "app": "[variables('redHatTags').app]"
             },
             "sku": {
-                "name": "Standard_LRS",
-                "tier": "Standard"
+                "name": "Premium_LRS",
+                "tier": "Premium"
             }
         }, {
             "type": "Microsoft.Storage/storageAccounts",
@@ -558,8 +558,8 @@
                 "app": "[variables('redHatTags').app]"
             },
             "sku": {
-                "name": "Standard_LRS",
-                "tier": "Standard"
+                "name": "Premium_LRS",
+                "tier": "Premium"
             }
         }, {
             "type": "Microsoft.Storage/storageAccounts",
@@ -573,8 +573,8 @@
                 "app": "[variables('redHatTags').app]"
             },
             "sku": {
-                "name": "Standard_LRS",
-                "tier": "Standard"
+                "name": "Premium_LRS",
+                "tier": "Premium"
             }
         }, {
             "type": "Microsoft.Storage/storageAccounts",
