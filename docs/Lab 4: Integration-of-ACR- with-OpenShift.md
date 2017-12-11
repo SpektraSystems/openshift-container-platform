@@ -39,7 +39,7 @@ And then **Click** on **Create**.
 Copy the **Registry name**, **Login server**, **Username** and **password** to a text editor for later use.
 <img src="../images/111acr_copy.jpg"/> 
 
-10.	Now, open a new tab in a browser and navigate to the Openshift console url. Login into the Openshift console using the credentials you received via email by Selecting AzureAD as authentication type.
+10.	Now, open a new tab in a browser and navigate to the Openshift console url. **Login** into the **Openshift console** using the credentials you received via email by Selecting AzureAD as authentication type.
 <img src="../images/112openshift_console.jpg"/> 
 
 11.	Now you will be redirected to the My Projects page, where you will select the Project you created earlier.
