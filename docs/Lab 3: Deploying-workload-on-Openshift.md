@@ -176,9 +176,9 @@ oc get all --all
 <img src="../images/93delete.jpg"/> 
 
 ### Exercise 4: Create an App using Docker build
-In this exercise, you will learn how to create an application from a Dockerfile. OpenShift takes Dockerfile as an input and generates your application docker image for you.
+In this exercise, you will learn how to create an **application** from a Dockerfile. OpenShift takes Dockerfile as an input and generates your application docker image for you.
 
-1.	You can create a new project or use existing project that created in exercise 3. To make sure you have the existing project run the following command.
+1.	You can create a new **project** or use existing project that created in exercise 3. To make sure you have the existing project run the following command.
 <img src="../images/94openshift_cmnd.jpg"/>
 
 2.	Now, we are using the Dockerfile as the basis to create a docker image for application. Run the command is given below.
