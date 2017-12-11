@@ -29,7 +29,7 @@ And then **Click** on **Create**.
 6.	You can see the status of the **deployment** from the **notifications** tab on top of the page.
 <img src="../images/108notification.jpg"/> 
 
-7.	Once the deployment is successful, click on Go to resource from the notifications tab.
+7.	Once the deployment is **successful**, click on Go to resource from the notifications tab.
 <img src="../images/109dep_status.jpg"/> 
 
 8.	Now you will be directed to the deployed container registry. Click on the Access keys under Settings section which is on the left side of the blade.
