@@ -48,7 +48,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 12.	Once you are in the **project page**, click on **Applications** from the left side of the menu and in the new menu that comes up, click on **Pods**.
 <img src="../images/114project_page.jpg"/> 
 
-13.	Now you will be redirected to the Pods page. Click on the pod with status as running.
+13.	Now you will be redirected to the **Pods page**. Click on the pod with status as running.
 <img src="../images/115pods_page.jpg"/> 
 
 14.	Now you will be directed to the Details blade of the selected Pod.
