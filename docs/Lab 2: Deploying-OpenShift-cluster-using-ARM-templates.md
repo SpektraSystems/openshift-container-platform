@@ -181,7 +181,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 
 11.	**Copy** the **Openshift Console URL**, Bastion **DNS FQDN** and **OpenShift Master SSH** by clicking on Copy to a text editor
 
-12.	To verify that the deployment is working, **Open** a new tab in the browser and paste the copied URL.
+12.	To verify that the deployment is working, **Open** a new tab in the browser and **paste** the copied **URL**.
 ```
 Note: Skip the certificate warning
 ```
