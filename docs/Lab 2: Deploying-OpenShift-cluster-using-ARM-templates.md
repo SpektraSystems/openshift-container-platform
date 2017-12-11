@@ -17,17 +17,17 @@ In this lab, you will learn how to deploy the Open Shift Cluster on Azure using 
 ### Exercise 1: Create an Azure AD Application
 In this exercise, you will create an Azure AD App and retrieve the Client ID and Client secret values.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="images/13azuredashboard.jpg"/>
+<img src="../images/13azuredashboard.jpg"/>
 
 
 2.	**Click** on the **Azure Active Directory** button in the **Menu navigation** bar to view the **Azure Active Directory** blade.
-<img src="images/14selectazure_ad.jpg"/>
+<img src="../images/14selectazure_ad.jpg"/>
 
 3.	You will be directed to the Azure Active Directory blade, **click** on **App registrations**.
-<img src="images/15app_reg.jpg"/>
+<img src="../images/15app_reg.jpg"/>
 
 4.	In the next blade, **click** on **New Application Registration** on top of the blade.
-<img src="images/16new_appreg.jpg"/>
+<img src="../images/16new_appreg.jpg"/>
 
 5.	In the **Create** blade, **configure** as follows:
 
@@ -41,20 +41,20 @@ Note: We will change this value later during the lab.
 
 And then **click** on **Create**.
 
-<img src="images/17createapp.jpg"/>
+<img src="../images/17createapp.jpg"/>
 
 6.	You will be redirected to the **App registrations** blade. You can check the app has been created by typing the App Name in the search field.
-<img src="images/18check_app.jpg"/>
+<img src="../images/18check_app.jpg"/>
 
 If the app has been created, you can see it in the results as shown above.
 
 7.	Click on the app you created and you will be directed to the App blade.
 
 8.	Copy the Application Id and save it in a notepad or any text editor for later use.
-<img src="images/19app_id.jpg"/>
+<img src="../images/19app_id.jpg"/>
 
 9.	Now, **Click** on **Keys** in the settings blade.
-<img src="images/20app_key.jpg"/>
+<img src="../images/20app_key.jpg"/>
 
 10.	In the **Keys** blade, **configure** as follows:
 
@@ -63,36 +63,36 @@ If the app has been created, you can see it in the results as shown above.
 
 And **Click** on **Save.**
 
-<img src="images/21save_key.jpg"/>
+<img src="../images/21save_key.jpg"/>
 
 11.	After you click on save, the key value will be displayed which is the Client Secret.
 Copy the value into the text editor where you saved the value of Application Id for later use.
-<img src="images/22copy_key.jpg"/>
+<img src="../images/22copy_key.jpg"/>
 
 12.   Now go back to the setting blade of the App and Click on Required permissions.
-<img src="images/53req_permission.jpg"/>
+<img src="../images/53req_permission.jpg"/>
 
 13.   Click on Grant Permissions in the blade that come up and then **Click** on **Yes**
-<img src="images/54grant_permission.jpg"/>
-<img src="images/55grantpermission_yes.jpg"/>
+<img src="../images/54grant_permission.jpg"/>
+<img src="../images/55grantpermission_yes.jpg"/>
 
 ### Exercise 2: Create a Keyvault 
 In this exercise, you will configure Azure Bash Cloud Shell and create a Key vault in the existing resource group and store the SSH key inside the vault. 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="images/23azure_dashboard.jpg"/>
+<img src="../images/23azure_dashboard.jpg"/>
 
 2.	**Click** on **Cloud Shell**  at the top right corner of the screen, to open the cloud shell.
-<img src="images/24cloudshell.jpg"/>
+<img src="../images/24cloudshell.jpg"/>
 
 3.	Then **Click** on **Bash ( Linux )**, and in the next page, **click** on **Show advanced settings**
-<img src="images/25selectbash.jpg"/>
-<img src="images/26advanced_settings.jpg"/>
+<img src="../images/25selectbash.jpg"/>
+<img src="../images/26advanced_settings.jpg"/>
 
 4.	In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and **click** on **Create Storage**.
-<img src="images/27create_storage.jpg"/>
+<img src="../images/27create_storage.jpg"/>
 
 5.	In a few minutes, the bash shell will come up.
-<img src="images/28bashshell.jpg"/>
+<img src="../images/28bashshell.jpg"/>
 
 6.	Now execute the following command in the cloud shell to create a key vault in the existing resource group.
 ```
@@ -103,7 +103,7 @@ az keyvault create -n <uniquename> -g <ResourceGroup> -l <LocationOfResourceGrou
 Note:
 Provide the existing Resource Group name, it’s location and a unique name for key vault in the above command when executing
 ```
-<img src="images/29create_keyvault_bash.jpg"/>
+<img src="../images/29create_keyvault_bash.jpg"/>
 
 7.	Now execute the following command in the cloud shell to generate ssh key.
 ```
@@ -112,7 +112,7 @@ ssh-keygen
 ```
 Note: Keep on clicking enter button until the key has been created.
 ```
-<img src="images/30generate _ssh.jpg"/>
+<img src="../images/30generate _ssh.jpg"/>
 
 8.	Now execute the following command in the cloud shell to display the public ssh key. Copy the key into a text editor for later use.
 ```
@@ -122,7 +122,7 @@ cat .ssh/id_rsa.pub
 Note: 
 The copied SSH Key should be made into a single line. You will need this key for later use.
 ```
-<img src="images/31display_publickey.jpg"/>
+<img src="../images/31display_publickey.jpg"/>
 
 9.	Now execute the following command to store the generated key in the key vault.
 ```
@@ -136,7 +136,7 @@ Substitute for key vault name in the above command with the name of the keyvault
 
 ## Exercise 3: Deploy Openshift Cluster using ARM Template  
 In this exercise, you will deploy the Openshift cluster on Azure using ARM Template . 
-1.	**Launch** a browser and **Navigate** to 'https://github.com/SpektraSystems/openshift-container-platform'
+1.	**Launch** a browser and **Navigate** to `https://github.com/SpektraSystems/openshift-container-platform`
 
 2.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
 <img src="../images/33deploytemplate.jpg"/>
