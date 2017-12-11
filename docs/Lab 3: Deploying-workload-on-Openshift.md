@@ -44,7 +44,7 @@ And then Click on **Create**.
 6.	You can see the **status** of the **deployment** from the **notifications** icon on top of the page.
 <img src="../images/75notification.jpg"/> 
 
-7.	Once the deployment is successful, click on Go to resource from the notifications tab.
+7.	Once the deployment is **successful**, click on **Go to resource** from the notifications tab.
 <img src="../images/76dep_status.jpg"/>
 
 8.	Now you will be directed to the deployed database.
