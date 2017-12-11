@@ -90,7 +90,7 @@ sudo su -
 ```
 <img src="../images/123openshift_cmnd.jpg"/> 
 
-22.	Now execute the following command in the cloud shell to check if the docker is installed and running. 
+22.	Now **execute** the following command in the cloud shell to check if the **docker** is **installed and running**. 
 ```
 docker -v 
 ``` 
