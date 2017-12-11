@@ -102,7 +102,7 @@ docker images
 ```
 <img src="../images/125openshift_cmnd.jpg"/> 
 
-24.	From the displayed results, copy the Image name with todoapp in the end.
+24.	From the displayed results, **copy** the **Image name** with todoapp in the end.
 <img src="../images/126openshift_cmnd.jpg"/> 
 
 25.	Now execute the following command in the cloud shell to tag the existing docker image.
