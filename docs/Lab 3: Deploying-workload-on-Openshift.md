@@ -248,7 +248,7 @@ oc expose service time
 ```
 <img src="../images/101expose_service_route.jpg"/> 
 
-10.	Now, we check the route is exposed.
+10.	Now, we check the **route** is exposed.
 ```
 oc get routes
 ```
