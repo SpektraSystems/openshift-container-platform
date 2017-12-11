@@ -45,7 +45,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 11.	Now you will be redirected to the **My Projects** page, where you will select the Project you created earlier.
 <img src="../images/113myproject_page.jpg"/> 
 
-12.	Once you are in the project page, click on Applications from the left side of the menu and in the new menu that comes up, click on Pods.
+12.	Once you are in the **project page**, click on **Applications** from the left side of the menu and in the new menu that comes up, click on **Pods**.
 <img src="../images/114project_page.jpg"/> 
 
 13.	Now you will be redirected to the Pods page. Click on the pod with status as running.
