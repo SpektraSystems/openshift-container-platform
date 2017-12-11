@@ -242,7 +242,7 @@ oc get services
 ``` 
 <img src="../images/100expose_services.jpg"/> 
 
-9.	Now, we expose the service as a route.
+9.	Now, we **expose** the service as a route.
 ```
 oc expose service time
 ```
