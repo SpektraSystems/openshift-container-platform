@@ -66,7 +66,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 18.	Now the **bash shell** will open up.
 <img src="../images/120bashshell.jpg"/> 
 
-19.	Now execute the following command. When promted, type Yes and you will be logged in to the Openshift Master VM.
+19.	Now **execute** the following command. When promted, type **Yes** and you will be logged in to the Openshift Master VM.
 ```
 ssh ocpadmin@<copiedDNSNameofBastionVM>
 ```
