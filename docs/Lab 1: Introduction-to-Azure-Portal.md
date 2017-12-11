@@ -39,7 +39,7 @@ Note : At the first login, you may have to change the password, if asked for.
 ### Exercise 2: Verify access to the Subscription
 In this exercise, you will verify the type of role you are assigned in this Subscription.
 
-1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
+1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email. 
 
 ![Azure Dashboard](../images/6azure_dashboard.jpg)
 
