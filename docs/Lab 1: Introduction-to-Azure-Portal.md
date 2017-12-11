@@ -70,7 +70,7 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 7.	In the new blade that come up, you can see the **role** that is assigned to you.
 
-![Role](images/12role.jpg)
+![Role](../images/12role.jpg)
 
 [<Previous](https://github.com/ShivaniThadiyan/openshift-container-platform/edit/master/README.md) /
 [Next>](docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
