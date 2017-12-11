@@ -222,7 +222,7 @@ And then **click** on **Save**.
 8.	Once you save the **properties**, close the properties blade.
 <img src="../images/50close_properties.jpg"/>
 
-9.	Then you will be **redirected** to the Settings Blade of **AD App**. Click on the Reply URLs
+9.	Then you will be **redirected** to the Settings Blade of **AD App**. Click on the **Reply URLs**.
 <img src="../images/51reply_url.jpg"/>
 
 10.	Now modify the openshift console url by removing the ‘console’ from the end and appending ‘oauth2callback/AzureAD’ to the url and provide it in the Reply URL blade that come up and then Click on Save. 
