@@ -132,7 +132,7 @@ Note: Substitute for ACRLoginServerUri in the above command
 ``` 
 <img src="../images/129openshift_cmnd.jpg"/> 
 
-28.	Once you have pushed the image to Azure Container Registry, click on More services on the left side of the menu on the dashboard.
+28.	Once you have pushed the image to Azure Container Registry, click on **More services** on the left side of the menu on the dashboard.
 <img src="../images/130az_moreservices.jpg"/> 
 
 29.	In the new blade that come up, search in the Filter box at the top “Container registries” and then Select “Container Registries from 
