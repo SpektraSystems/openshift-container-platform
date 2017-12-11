@@ -186,7 +186,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 Note: Skip the certificate warning
 ```
 
-13.	Now you will be directed to the Openshift Console Login page.
+13.	Now you will be directed to the Openshift Console **Login page**.
 <img src="../images/42openshift_console.jpg"/>
 
 ```
