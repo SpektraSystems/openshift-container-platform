@@ -131,7 +131,7 @@
         "aadClientId": "[parameters('azureIntegrationClientId')]",
         "aadClientSecret": "[parameters('azureIntegrationClientSecret')]",
         "masterVmSize": "Standard_D2_v2",
-        "infraVmSize": "Standard_D2_v2",
+        "infraVmSize": "Standard_D11_v2",
         "nodeVmSize": "Standard_D2_v2",
         "location": "[resourceGroup().location]",
         "defaultSubDomainType": "nipio",
@@ -209,7 +209,7 @@
         "basicDeploymentTemplateUrl": "[concat(parameters('_artifactsLocation'), '/nested/gallery', 'basic.json')]",
         "openshiftDeploymentTemplateUrl": "[concat(parameters('_artifactsLocation'), '/nested/openshiftdeploy.json')]",
         "vmSizesMap": {
-            "Standard_D2_v2": {
+            "Standard_D11_v2": {
                 "storageAccountType": "Standard_LRS",
                 "storageAccountTier": "Standard"
             }
