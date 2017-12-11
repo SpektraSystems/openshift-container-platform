@@ -94,7 +94,7 @@ In this exercise, you will configure **Azure Bash Cloud Shell** and create a **K
 5.	In a few minutes, the **bash shell** will come up.
 <img src="../images/28bashshell.jpg"/>
 
-6.	Now execute the following command in the cloud shell to create a key vault in the existing resource group.
+6.	Now **execute** the following command in the cloud shell to create a key vault in the existing resource group.
 ```
 az keyvault create -n <uniquename> -g <ResourceGroup> -l <LocationOfResourceGroup> 
 --enabled-for-template-deployment true
