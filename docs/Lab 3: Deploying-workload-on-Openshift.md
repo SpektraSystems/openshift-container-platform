@@ -122,7 +122,7 @@ In this exercise, you will learn how to create a new project on OpenShift and ho
 oc login <URL of Openshift:8443>
 ```
 
-2.	Create an OpenShift project by running below command. 
+2.	Create an **OpenShift project** by running below command. 
 <img src="../images/85openshift_cmnd.jpg"/> 
 
 3.	Now you can see the project is created successfully.
