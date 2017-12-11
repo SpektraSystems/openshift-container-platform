@@ -147,7 +147,7 @@ Note: Substitute for ACRLoginServerUri in the above command
 32.	Now to check whether the image has been pushed to the repository, you can click on **Repositories** under Services on the menu on left side of the blade.
 <img src="../images/134repositories.jpg"/> 
 
-33.	In the next blade that come up, if the push has been successful, you can see sample/todapp repository there. 
+33.	In the next blade that come up, if the push has been **successful**, you can see sample/todapp repository there. 
 <img src="../images/135repositoriesview.jpg"/> 
 
 [<Previous](/docs/Lab%203:%20Deploying-workload-on-Openshift.md)
