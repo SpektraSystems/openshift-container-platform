@@ -236,3 +236,6 @@ Note: Skip the certificate warning
 
 13.	Once the login is successful, you will be redirected to the Openshift console.
 <img src="images/69openshift_cp.jpg"/>  
+
+[Previous](/Lab%201:%20Introduction-to-Azure-Portal.md) /
+[Next](/Lab%203:%20Deploying-workload-on-Openshift.md)
