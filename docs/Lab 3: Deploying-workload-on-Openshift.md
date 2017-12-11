@@ -74,7 +74,7 @@ The easiest way to **download** the **CLI** is by accessing the **Command line t
 2.	On **Command Line Tools** page, click on **Latest Release**.
 <img src="../images/82cl_latestrelease.jpg"/>  
 
-3.	Now, you need to login in to your red hat account(one which has license for Openshift)
+3.	Now, you need to **login** in to your **red hat account**(one which has license for Openshift)
 <img src="../images/83redhatlogin.jpg"/>
 
 4.	scroll down and click on download.
