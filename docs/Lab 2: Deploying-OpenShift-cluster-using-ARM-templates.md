@@ -81,20 +81,20 @@ In this exercise, you will configure **Azure Bash Cloud Shell** and create a **K
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/23azure_dashboard.jpg"/>
 
-1.	**Click** on **Cloud Shell**  at the top right corner of the screen, to open the cloud shell.
+2.	**Click** on **Cloud Shell**  at the top right corner of the screen, to open the cloud shell.
 <img src="../images/24cloudshell.jpg"/>
 
-1.	Then **Click** on **Bash ( Linux )**, and in the next page, **click** on **Show advanced settings**
+3.	Then **Click** on **Bash ( Linux )**, and in the next page, **click** on **Show advanced settings**
 <img src="../images/25selectbash.jpg"/>
 <img src="../images/26advanced_settings.jpg"/>
 
-1.	In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and **click** on **Create Storage**.
+4.	In the new blade, select the existing resource group, provide unique names under Create new(Storage account and File share) and **click** on **Create Storage**.
 <img src="../images/27create_storage.jpg"/>
 
-1.	In a few minutes, the **bash shell** will come up.
+5.	In a few minutes, the **bash shell** will come up.
 <img src="../images/28bashshell.jpg"/>
 
-1.	Now **execute** the following command in the **cloud shell** to create a **key vault** in the existing resource group.
+6.	Now **execute** the following command in the **cloud shell** to create a **key vault** in the existing resource group.
 ```
 az keyvault create -n <uniquename> -g <ResourceGroup> -l <LocationOfResourceGroup> 
 --enabled-for-template-deployment true
@@ -105,7 +105,7 @@ Provide the existing Resource Group name, it’s location and a unique name for 
 ```
 <img src="../images/29create_keyvault_bash.jpg"/>
 
-1.	Now **execute** the following command in the **cloud shell** to **generate ssh key.
+7.	Now **execute** the following command in the **cloud shell** to **generate ssh key.
 ```
 ssh-keygen
 ```
@@ -114,7 +114,7 @@ Note: Keep on clicking enter button until the key has been created.
 ```
 <img src="../images/30generate _ssh.jpg"/>
 
-1.	Now **execute** the following command in the cloud shell to display the **public ssh key**. Copy the key into a text editor for later use.
+8.	Now **execute** the following command in the cloud shell to display the **public ssh key**. Copy the key into a text editor for later use.
 ```
 cat .ssh/id_rsa.pub
 ```
@@ -124,7 +124,7 @@ The copied SSH Key should be made into a single line. You will need this key for
 ```
 <img src="../images/31display_publickey.jpg"/>
 
-1.	Now **execute** the following command to **store** the generated key in the key vault.
+9.	Now **execute** the following command to **store** the generated key in the key vault.
 ```
 az keyvault secret set --vault-name <keyvaultname> -n osdemovaultsecret --file ~/.ssh/id_rsa
 ```
@@ -137,14 +137,14 @@ Substitute for key vault name in the above command with the name of the keyvault
 ## Exercise 3: Deploy Openshift Cluster using ARM Template  
 In this exercise, you will deploy the **Openshift cluster** on Azure using ARM Template.
 
-2.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
+1.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
 
 [![Deploy to Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FSpektraSystems%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json)
 
-3.	Now you will be directed to the **Custom Deployment blade**.
+2.	Now you will be directed to the **Custom Deployment blade**.
 <img src="../images/34custom_deployment.jpg"/>
 
-4.	In the **Custom Deployment** blade, **configure** the settings as follows:
+3.	In the **Custom Deployment** blade, **configure** the settings as follows:
 -	Resource Group : Choose Use **existing** and scroll down to see the Resource Group which is already there)
 -	Openshift Password  :  **Provide a unique password**
 -	Ssh Public Key :  **Provide the copied SSH key**
@@ -161,31 +161,31 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 -  Accept the terms of conditions.
 <img src="../images/images36custeomdeployment_purchase.png"/>
 
-5.	And then **click** on **Purchase**.
+4.	And then **click** on **Purchase**.
 
-6.	Once the deployment starts, you can see the **progress** in the notification bar at the top of the Azure portal.
+5.	Once the deployment starts, you can see the **progress** in the notification bar at the top of the Azure portal.
 <img src="../images/37deployment_progress.jpg"/>
 
-7.	Once the deployment is complete, you can see it in the notifications tab as **Deployment succeeded**. Now, **click** on **Go to resource group** from the notifications tab.
+6.	Once the deployment is complete, you can see it in the notifications tab as **Deployment succeeded**. Now, **click** on **Go to resource group** from the notifications tab.
 <img src="../images/38dep_succeed.jpg"/>
 
-8.	In the resource group blade that come up, you can see the **deployments** as **Succeeded**, click on that.
+7.	In the resource group blade that come up, you can see the **deployments** as **Succeeded**, click on that.
 <img src="../images/39resource_group.jpg"/>
 
-9.	Select **Microsoft Template** from the new blade that come up.
+8.	Select **Microsoft Template** from the new blade that come up.
 <img src="../images/40dep_status.jpg"/>
 
-10.	From the new blade that come up, you can see the **outputs** of the deployment.
+9.	From the new blade that come up, you can see the **outputs** of the deployment.
 <img src="../images/41dep_output.jpg"/>
 
-11.	**Copy** the **Openshift Console URL**, Bastion **DNS FQDN** and **OpenShift Master SSH** by clicking on Copy to a text editor
+10.	**Copy** the **Openshift Console URL**, Bastion **DNS FQDN** and **OpenShift Master SSH** by clicking on Copy to a text editor
 
-12.	To verify that the deployment is working, **Open** a new tab in the browser and **paste** the copied **URL**.
+11.	To verify that the deployment is working, **Open** a new tab in the browser and **paste** the copied **URL**.
 ```
 Note: Skip the certificate warning
 ```
 
-13.	Now you will be directed to the Openshift Console **Login page**.
+12.	Now you will be directed to the Openshift Console **Login page**.
 <img src="../images/42openshift_console.jpg"/>
 
 ```
