@@ -148,7 +148,7 @@ oc get pods
 ``` 
 <img src="../images/88openshift_cmnd.jpg"/> 
 
-7.	To view the list of services in the project, run the following command below
+7.	To view the list of **services** in the project, run the following command below
 ```
 oc get services
 ``` 
