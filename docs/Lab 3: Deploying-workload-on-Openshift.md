@@ -53,7 +53,7 @@ And then Click on **Create**.
 9.	Now, click on **Connection String** under settings menu on the left side of the blade.
 <img src="../images/78conn_string.jpg"/> 
 
-10.	Now from the new blade that come up, copy the connection string for later use.
+10.	Now from the new blade that come up, **copy** the connection string for later use.
 <img src="../images/79copy_connstring.jpg"/>  
 
 11.	Now, open a new tab in a broswer and navigate to the Openshift console url. Login into the Openshift console using the credentials you received via email by Selecting AzureAD as authentication type.
