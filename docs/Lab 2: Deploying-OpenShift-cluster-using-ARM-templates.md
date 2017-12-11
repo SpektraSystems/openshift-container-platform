@@ -77,7 +77,7 @@ And **Click** on **Save.**
 <img src="../images/55grantpermission_yes.jpg"/>
 
 ### Exercise 2: Create a Keyvault 
-In this exercise, you will configure Azure Bash Cloud Shell and create a Key vault in the existing resource group and store the SSH key inside the vault. 
+In this exercise, you will configure **Azure Bash Cloud Shell** and create a **Key vault** in the existing resource group and store the **SSH key** inside the vault. 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/23azure_dashboard.jpg"/>
 
