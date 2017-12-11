@@ -1,14 +1,14 @@
 [Lab 2: Deploying Open Shift cluster using ARM templates](#lab-2-deploying-open-shift-cluster-using-arm-templates)
-   * [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
-   * [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
-   * [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
-   * [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
+   1. [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
+   2. [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
+   3. [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
+   4. [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
    
  ## Lab 2: Deploying Open Shift cluster using ARM templates
 ### Lab Overview
 In this lab, you will learn how to deploy the Open Shift Cluster on Azure using ARM templates.
 ### Prerequisites
-*	Lab 1 must be completed
+•	Lab 1 must be completed
 
 ### Time Estimate
 120 minutes
@@ -16,7 +16,8 @@ In this lab, you will learn how to deploy the Open Shift Cluster on Azure using 
 ### Exercise 1: Create an Azure AD Application
 In this exercise, you will create an Azure AD App and retrieve the Client ID and Client secret values.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="images/13azuredashboard.jpg"/>
+![](Images/13azuredashboard.jpg "")
+
 
 2.	**Click** on the **Azure Active Directory** button in the **Menu navigation** bar to view the **Azure Active Directory** blade.
 <img src="images/14selectazure_ad.jpg"/>
