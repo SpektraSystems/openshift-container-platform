@@ -114,7 +114,7 @@ Note: Keep on clicking enter button until the key has been created.
 ```
 <img src="../images/30generate _ssh.jpg"/>
 
-8.	Now execute the following command in the cloud shell to display the public ssh key. Copy the key into a text editor for later use.
+8.	Now **execute** the following command in the cloud shell to display the **public ssh key**. Copy the key into a text editor for later use.
 ```
 cat .ssh/id_rsa.pub
 ```
