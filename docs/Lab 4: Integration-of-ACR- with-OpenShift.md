@@ -96,7 +96,7 @@ docker -v
 ``` 
 <img src="../images/124openshift_cmnd.jpg"/> 
 
-23.	Now execute the following command in the cloud shell to display the list the docker images in the system. 
+23.	Now **execute** the following command in the cloud shell to **display** the list the **docker images** in the system. 
 ```
 docker images
 ```
