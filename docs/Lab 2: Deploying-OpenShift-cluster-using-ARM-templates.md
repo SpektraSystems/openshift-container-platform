@@ -65,7 +65,7 @@ And **Click** on **Save.**
 
 <img src="../images/21save_key.jpg"/>
 
-11.	After you click on save, the key value will be displayed which is the Client Secret.
+11.	After you click on save, the **key value** will be displayed which is the Client Secret.
 **Copy** the value into the text editor where you saved the value of **Application Id** for later use.
 <img src="../images/22copy_key.jpg"/>
 
