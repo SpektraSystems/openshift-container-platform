@@ -144,7 +144,7 @@ Note: Substitute for ACRLoginServerUri in the above command
 31.	Now you will be directed to the **Overview page** of the container registry.
 <img src="../images/133overview_acr.jpg"/> 
 
-32.	Now to check whether the image has been pushed to the repository, you can click on Repositories under Services on the menu on left side of the blade.
+32.	Now to check whether the image has been pushed to the repository, you can click on **Repositories** under Services on the menu on left side of the blade.
 <img src="../images/134repositories.jpg"/> 
 
 33.	In the next blade that come up, if the push has been successful, you can see sample/todapp repository there. 
