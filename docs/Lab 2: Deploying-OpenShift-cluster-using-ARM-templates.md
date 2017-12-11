@@ -72,7 +72,7 @@ And **Click** on **Save.**
 12.   Now go back to the setting blade of the App and Click on **Required permissions.
 <img src="../images/53req_permission.jpg"/>
 
-13.   Click on Grant Permissions in the blade that come up and then **Click** on **Yes**
+13.   Click on **Grant Permissions** in the blade that come up and then **Click** on **Yes**
 <img src="../images/54grant_permission.jpg"/>
 <img src="../images/55grantpermission_yes.jpg"/>
 
