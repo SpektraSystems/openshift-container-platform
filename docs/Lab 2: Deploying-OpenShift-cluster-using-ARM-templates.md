@@ -50,7 +50,7 @@ If the app has been created, you can see it in the results as shown above.
 
 7.	Click on the **app** you **created** and you will be directed to the App blade.
 
-8.	Copy the **Application Id** and **save** it in a **notepad** or any text editor for later use.
+8.	Copy the **Application Id** and **save** it in a notepad or any text editor for later use.
 <img src="../images/19app_id.jpg"/>
 
 9.	Now, **Click** on **Keys** in the settings blade.
@@ -66,7 +66,7 @@ And **Click** on **Save.**
 <img src="../images/21save_key.jpg"/>
 
 11.	After you click on save, the key value will be displayed which is the Client Secret.
-Copy the value into the text editor where you saved the value of Application Id for later use.
+**Copy** the value into the text editor where you saved the value of **Application Id** for later use.
 <img src="../images/22copy_key.jpg"/>
 
 12.   Now go back to the setting blade of the App and Click on Required permissions.
