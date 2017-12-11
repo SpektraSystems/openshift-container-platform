@@ -72,5 +72,5 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 ![Role](../images/12role.jpg)
 
-[<Previous](https://github.com/ShivaniThadiyan/openshift-container-platform/edit/master/README.md) /
+[<Previous](https://github.com/ShivaniThadiyan/openshift-container-platform/blob/master/README.md) /
 [Next>](docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
