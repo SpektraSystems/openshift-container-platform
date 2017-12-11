@@ -212,6 +212,9 @@
             "Standard_D11_v2": {
                 "storageAccountType": "Standard_LRS",
                 "storageAccountTier": "Standard"
+            },"Standard_D2_v2": {
+                "storageAccountType": "Standard_LRS",
+                "storageAccountTier": "Standard"
             }
         }
     },
