@@ -254,7 +254,7 @@ oc get routes
 ```
 <img src="../images/102check_route.jpg"/> 
 
-11.	For run the application, copy the host/port and paste in browser and you can see the result.
+11.	For run the **application**, copy the host/port and paste in browser and you can see the result.
 <img src="../images/103browser_result.jpg"/> 
 
 [<Previous](/docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
