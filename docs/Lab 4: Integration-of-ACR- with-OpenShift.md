@@ -26,7 +26,7 @@ In this exercise, you will deploy an Azure Container Registry and integrate it w
 
 And then **Click** on **Create**.
 
-6.	You can see the status of the deployment from the notifications tab on top of the page.
+6.	You can see the status of the **deployment** from the **notifications** tab on top of the page.
 <img src="../images/108notification.jpg"/> 
 
 7.	Once the deployment is successful, click on Go to resource from the notifications tab.
