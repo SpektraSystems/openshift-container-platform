@@ -153,4 +153,4 @@ the search result.
 33.	In the next blade that come up, if the push has been successful, you can see sample/todapp repository there. 
 <img src="images/135repositoriesview.jpg"/> 
 
-
+[Previous](/Lab%203:%20Deploying-workload-on-Openshift.md)
