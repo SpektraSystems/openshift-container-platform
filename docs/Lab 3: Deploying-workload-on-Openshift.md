@@ -112,7 +112,7 @@ $ export PATH=$PATH:~/OpenShift
 $ export PATH=$PATH:~/OpenShift
 ```
 
-7.	Now run below command on shell/command prompt to check the version of OpenShift client an to verify that it is successfully configured.
+7.	Now run below command on shell/command prompt to check the **version** of OpenShift client an to verify that it is successfully configured.
 <img src="../images/84check_version.jpg"/>  
 
 ### Exercise 3: Deployment in OpenShift using CLI
