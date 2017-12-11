@@ -72,5 +72,6 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 ![Role](images/12role.jpg)
 
-[Previous](README.md)/[Next](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
-[![Next](images/next.png)](README.md)
+[]()
+[![Previous](images/previous.png)](README.md)
+[![Next](images/next.png)](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
