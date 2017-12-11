@@ -13,7 +13,7 @@
    2. [Exercise 2: Create a Keyvault](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md#exercise-2-create-a-keyvault)
    3. [Exercise 3: Deploy Openshift Cluster using ARM Template](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md#exercise-3-deploy-openshift-cluster-using-arm-template)
    4. [Exercise 4: Configure Azure AD Authentication](/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md#exercise-4-configure-azure-ad-authentication)
-4. [Lab 3: Deploying workload on Openshift](Lab%203:%20Deploying-workload-on-Openshift.md)
+4. [Lab 3: Deploying workload on Openshift](/Lab%203:%20Deploying-workload-on-Openshift.md)
    1. [Exercise 1: Deploy a 2 Tier Node JS Application on Open Shift](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-1-deploy-a-2-tier-node-js-application-on-open-shift)
    2. [Exercise 2: Installing OpenShift CLI](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-2-installing-openshift-cli)
    3. [Exercise 3: Deployment in OpenShift using CLI](/Lab%203:%20Deploying-workload-on-Openshift.md#exercise-3-deployment-in-openshift-using-cli)
