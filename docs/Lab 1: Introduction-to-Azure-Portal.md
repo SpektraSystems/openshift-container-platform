@@ -19,7 +19,7 @@ This lab will take you through Azure login and portal experience.
 
 ### Exercise 1: Log into your Azure Portal
 
-In this exercise, you will log into the Azure Portal using your Azure credentials.
+In this exercise, you will log into the **Azure Portal** using your Azure credentials.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 ![Azure Login](../images/3azure_login.jpg)
