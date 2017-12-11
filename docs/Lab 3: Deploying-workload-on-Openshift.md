@@ -20,7 +20,7 @@ In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configu
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/70az_dashboard.jpg"/>
 
-2.	Click on +New on the left side of the Dashboard.
+2.	Click on **+New** on the left side of the Dashboard.
 <img src="../images/71new.jpg"/> 
 
 3.	In the **New** blade that come up, Select **Databases**. 
