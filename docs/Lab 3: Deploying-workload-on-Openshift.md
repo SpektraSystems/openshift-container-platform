@@ -39,7 +39,7 @@ In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configu
 
 <img src="../images/74cosmosdb_create.jpg"/> 
 
-And then Click on Create.
+And then Click on **Create**.
 
 6.	You can see the status of the deployment from the notifications tab on top of the page.
 <img src="../images/75notification.jpg"/> 
