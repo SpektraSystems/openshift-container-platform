@@ -219,7 +219,7 @@ In this exercise, you will configure the **AD App** you created for Authenticati
 And then **click** on **Save**.
 <img src="../images/49save_properties.jpg"/>
 
-8.	Once you save the properties, close the properties blade.
+8.	Once you save the **properties**, close the properties blade.
 <img src="../images/50close_properties.jpg"/>
 
 9.	Then you will be redirected to the Settings Blade of AD App. Click on the Reply URLs
