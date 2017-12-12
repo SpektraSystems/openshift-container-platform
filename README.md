@@ -28,6 +28,7 @@
 ## Workshop Architecture and Objective
  As part of Hand on Lab, you will get following details via **email**. Make a note of these details as these shall be leveraged throughout the lab exercise
 - Azure Access: Azure Username and Password (Default Password, Change at first login)
+- Service Principal Details
 
 ### Labs Objective
 During this lab, you will deploy Open Shift cluster on Azure and integrate Azure AD Authentication and Azure Container Registry into Open Shift. Detailed steps to achieve this is as follows.
