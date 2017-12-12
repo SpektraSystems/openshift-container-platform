@@ -67,7 +67,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 <img src="../images/117copy_details.jpg"/> 
 
 16.	Now, **Open** a new tab in a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="../images/118az_dashboard.jpg"/> 
+<img src="../images/43az_dashboard.jpg"/> 
 
 17.	**Click** on **Cloud Shell**  at the top right corner of the screen, to open the cloud shell.
 <img src="../images/119bash.jpg"/> 
