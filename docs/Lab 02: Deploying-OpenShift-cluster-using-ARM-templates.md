@@ -17,7 +17,7 @@ In this lab, you will learn how to **deploy the Open Shift Cluster** on **Azure*
 ### Exercise 1: Create an Azure AD Application
 In this exercise, you will create an Azure AD App and retrieve the Client ID and Client secret values.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="../images/13azuredashboard.jpg"/>
+<img src="../images/6azuredashboard.jpg"/>
 
 
 2.	**Click** on the **Azure Active Directory** button in the **Menu navigation** bar to view the **Azure Active Directory** blade.
@@ -79,7 +79,7 @@ And **Click** on **Save.**
 ### Exercise 2: Create a Keyvault 
 In this exercise, you will configure **Azure Bash Cloud Shell** and create a **Key vault** in the existing resource group and store the **SSH key** inside the vault. 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
-<img src="../images/23azure_dashboard.jpg"/>
+<img src="../images/6azure_dashboard.jpg"/>
 
 2.	**Click** on **Cloud Shell**  at the top right corner of the screen, to open the cloud shell.
 <img src="../images/24cloudshell.jpg"/>
