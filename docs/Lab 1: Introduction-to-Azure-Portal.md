@@ -1,9 +1,8 @@
  ## Lab 1: Introduction to Azure Portal
  - [Option 1: Using Preconfigured Environment](#option-1-using-preconfigured-environment)
-   * [Exercise 1: Log into your Azure Portal](#exercise-1-log-into-your-azure-portal-and-verify-access-to-the-subscription)
-   * [Exercise 2: Verify access to the Subscription](#exercise-2-verify-access-to-the-subscription)
+   * [Exercise 1: Log into your Azure Portal and Verify access to the Subscription](#exercise-1-log-into-your-azure-portal-and-verify-access-to-the-subscription)
  - [Option 2: Using own Subscription and configuring the Environment](#option-2-using-own-subscription-and-configuring-the-environment)
-   * [Exercise 1: Log into your Azure Portal](#exercise-1-log-into-your-azure-portal-and-verify-access-to-the-subscription)   
+   * [Exercise 1: Log into your Azure Portal and deploy the pre-requisite environment](#exercise-1-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment)   
 ### Lab Overview
 This lab will take you through Azure login and portal experience.
 
@@ -68,7 +67,7 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 9.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
 
-![Access Control](https://github.com/ShivaniThadiyan/openshift-container-platform/blob/master/images/11access_control.jpg)
+![Access Control](../images/11access_control.jpg)
 
 10.	In the new blade that come up, you can see the **role** that is assigned to you.
 
@@ -80,9 +79,9 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 30 minutes
 
-### Exercise 1: Log into your Azure Portal and Verify access to the Subscription
+### Exercise 1: Log into your Azure Portal and deploy the pre-requisite environment
 
-In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
+In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will vdeploy the pre-requisite environment.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 ![Azure Login](../images/3azure_login2.jpg)
@@ -105,11 +104,87 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 
 ![Azure Menu](../images/8azure_menu.jpg)
 
-6.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
+
+6.	**Click** on the **Azure Active Directory** button in the **Menu navigation** bar to view the **Azure Active Directory** blade.
+<img src="../images/14selectazure_ad.jpg"/>
+
+7.	You will be directed to the Azure Active Directory blade, **click** on **App registrations**.
+<img src="../images/15app_reg.jpg"/>
+
+8.	In the next blade, **click** on **New Application Registration** on top of the blade.
+<img src="../images/16new_appreg.jpg"/>
+
+9.	In the **Create** blade, **configure** as follows:
+
+-	Name: **(Provide a unique value)**
+-	Application type: **Web app/API**
+-	Sign-on URL: https://contoso.com
+
+```
+Note: We will change this value later during the lab.
+```
+
+And then **click** on **Create**.
+
+<img src="../images/17createapp.jpg"/>
+
+10.	You will be redirected to the **App registrations** blade. You can check the app has been created by typing the App Name in the search field.
+<img src="../images/18check_app.jpg"/>
+
+If the app has been created, you can see it in the results as shown above.
+
+11.	Click on the **app** you **created** and you will be directed to the App blade.
+
+12.	Copy the **Application Id** and **save** it in a notepad or any text editor for later use.
+<img src="../images/19app_id.jpg"/>
+
+13.	Now, **Click** on **Keys** in the settings blade.
+<img src="../images/20app_key.jpg"/>
+
+14.	In the **Keys** blade, **configure** as follows:
+
+- Description: **key1**
+- Expires: **Never expires**
+
+And **Click** on **Save.**
+
+<img src="../images/21save_key.jpg"/>
+
+15.	After you click on save, the **key value** will be displayed which is the Client Secret.
+**Copy** the value into the text editor where you saved the value of **Application Id** for later use.
+<img src="../images/22copy_key.jpg"/>
+
+16.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
+17.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
+"![Resource Group](../images/9resourcegroup.jpg)
+
+18.	You will be directed to the **Resource groups** blade, **click** on **+ Add**.
+
+"![Resource Group](../images/9resourcegroup1.jpg)
+
+19. In the **Create** blade, **configure** as follows and then **click** on **Create**.
+
+-	Resource Group Name: **(Provide a unique value)**
+-	Subscription: **(Select your subscription)**
+-	Resource Group Location: **(Select any Location)**
+
+"![Resource Group](../images/9resourcegroup2.jpg)
+
+19.	Once the resource group is created, **Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
+
+"![Resource Group](../images/9resourcegroup.jpg)
+
+20.	You will see a **Resource Group** which you have created, **click** on it.
+
+21.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
+
+![Access Control](../images/11access_control.jpg)
+
+22.	In the new blade that come up, you can see the **role** that is assigned to you.
 
 [<Previous](https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md) /
 [Next>](/docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
