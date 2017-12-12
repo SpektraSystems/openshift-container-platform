@@ -22,7 +22,7 @@ If you do not have an Azure Subscription, or an environment where you can setup 
 ### Exercise 00: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment.
-1.	**Navigate** to training portal https://experience-azure.azurewebsites.net. 2.	Register by providing all required information and **clicking** on **SUBMIT button**.
+1.	**Navigate** to training portal https://experience-azure.azurewebsites.net and register by providing all required information and **clicking** on **SUBMIT button**.
 ![Training Portal Register1](../images/2odl_register.jpg)
 
 2. Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. **Click** on the **Launch Lab** button.
