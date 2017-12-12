@@ -10,10 +10,8 @@ If you do not have an Azure Subscription, or an environment where you can setup 
 
 ### Prerequisites
 -	Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox
--	You should have registered in the training portal https://experience-azure.azurewebsites.net and received the confirmation message with the credentials to login to the [Azure portal](http://portal.azure.com) or you should already have credentials to login into your own subscription.
 -	Red Hat Customer Portal login credentials so that the Azure instances can be registered with Red Hat Subscription Manager properly, and you must have enough OpenShift Container Platform entitlements to cover the chosen configuration.
 
-![Registration Notification](../images/2registration_notification.jpg)
 
 ### Option 1: Using Preconfigured Environment
 
