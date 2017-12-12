@@ -154,6 +154,11 @@ And **Click** on **Save.**
 **Copy** the value into the text editor where you saved the value of **Application Id** for later use.
 <img src="../images/22copy_key.jpg"/>
 
+```
+Note:
+You will use the above app details for Azure Integration in Lab 02: Exercise 3
+```
+
 16.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
 "![Resource Group](../images/9resourcegroup.jpg)
