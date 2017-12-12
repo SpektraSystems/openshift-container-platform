@@ -1,4 +1,4 @@
-# Open Shift Cluster Workshop | Lab Guide
+# OpenShift Cluster Workshop | Lab Guide
 
 ***
 
