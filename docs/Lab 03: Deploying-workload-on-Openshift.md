@@ -148,7 +148,7 @@ oc get pods
 ``` 
 <img src="../images/88openshift_cmnd.jpg"/> 
 
-7.	To view the list of **services** in the project, run the following command below
+7.	To view the list of **services** in the project, run the following command 
 ```
 oc get services
 ``` 
@@ -163,7 +163,7 @@ oc expose service welcome --name=welcomehost
 9.	Now go to your **openshift platform** and click on applications>hostname, you can access the **application** from the browser and see the result.
 <img src="../images/91browser.jpg"/> 
 
-10.	To view all the **components** that were created in your **project**, run he command is given below.
+10.	To view all the **components** that were created in your **project**, run the command given below.
 ```
 oc get all
 ``` 
@@ -193,7 +193,7 @@ oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
  ```
 <img src="../images/96buildconfig.jpg"/>
 
-4.	To view the list of **build**, run command is given below.
+4.	To view the list of **build**, run command given below.
 ```
 oc get builds
 ``` 
@@ -230,13 +230,13 @@ oc get dc -o json
 }
 ```
 
-7.	Now, you can get the **list of pods**, Run the following command is given below.
+7.	Now, you can get the **list of pods**, Run the following command given below.
 ```
 oc get pods
 ```
 <img src="../images/99list_pods.jpg"/> 
 
-8.	Now, add a **route** to expose that service, Run the following command is given below.
+8.	Now, add a **route** to expose that service, Run the following command given below.
 ```
 oc get services
 ``` 
@@ -248,13 +248,13 @@ oc expose service time
 ```
 <img src="../images/101expose_service_route.jpg"/> 
 
-10.	Now, we check the **route** is exposed.
+10.	Now, we check whether the **route** is exposed.
 ```
 oc get routes
 ```
 <img src="../images/102check_route.jpg"/> 
 
-11.	For run the **application**, copy the host/port and paste in browser and you can see the result.
+11.	To run the **application**, copy the host/port and paste in browser and you can see the result.
 <img src="../images/103browser_result.jpg"/> 
 
 [<Previous](/docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md) /
