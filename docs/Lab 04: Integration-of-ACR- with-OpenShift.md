@@ -1,4 +1,4 @@
-## Lab 4: Integration of ACR with OpenShift
+## Lab 04: Integration of ACR with OpenShift
 
 ### Exercise 1: Integrate ACR with OpenShift 
 In this exercise, you will deploy an Azure Container Registry and integrate it with Open Shift. 
@@ -150,4 +150,4 @@ Note: Substitute for ACRLoginServerUri in the above command
 33.	In the next blade that come up, if the push has been **successful**, you can see sample/todapp repository there. 
 <img src="../images/135repositoriesview.jpg"/> 
 
-[<Previous](/docs/Lab%203:%20Deploying-workload-on-Openshift.md)
+[<Previous](/docs/Lab%2003:%20Deploying-workload-on-Openshift.md)
