@@ -158,9 +158,8 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 -	Aad Auth App Name : **Provide the name of the AD App you created** 
 -	Aad Auth App Id : **Provide the Client ID of the AD App you created** 
 -	Aad Auth Client Secret : **Provide the secret key of the AD App**
-Accept the terms of conditions.
-<img src="../images/images36custeomdeployment_purchase.png"/>
-
+-  Accept the terms of conditions.
+![](../images/images36custeomdeployment_purchase.png)
 4.	And then **click** on **Purchase**.
 
 5.	Once the deployment starts, you can see the **progress** in the notification bar at the top of the Azure portal.
