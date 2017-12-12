@@ -35,7 +35,7 @@ In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configu
 -	API :  **MongoDB**
 -	Subscription : Select the **existing** subscription
 -	Resource Group : Choose **existing** and scroll down to see the Resource Group which is already there and select that)
--	Location: **South Central US**
+-	Location: **(Keep Default)**
 
 <img src="../images/74cosmosdb_create.jpg"/> 
 
