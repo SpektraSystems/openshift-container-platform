@@ -5,7 +5,7 @@
    * [Exercise 1: Log into your Azure Portal and deploy the pre-requisite environment](#exercise-1-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment)   
 ### Lab Overview
 This lab will take you through Azure login and portal experience and the pre-requisite environment.
-If you do not have an Azure Subscription, or an environment where you can setup the pre-requisite for carrying out this labs, you should select [Option 1](#option-1-using-preconfigured-environment), else go to [Option 2](#option-2-using-own-subscription-and-configuring-the-environment)
+If you do not have an Azure Subscription, or an environment where you can setup the pre-requisite for carrying out these labs, you should select [Option 1](#option-1-using-preconfigured-environment), else go to [Option 2](#option-2-using-own-subscription-and-configuring-the-environment)
 
 ### Prerequisites
 -	Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox
