@@ -1,5 +1,14 @@
 ## Lab 04: Integration of ACR with OpenShift
 
+### Lab overview
+In this lab, we will integrate ACR with OpenShift.
+
+### Prerequisites
+- Lab 03 must be completed
+
+### Time Estimate
+45 minutes
+
 ### Exercise 00: Integrate ACR with OpenShift 
 In this exercise, you will deploy an Azure Container Registry and integrate it with Open Shift. 
 
