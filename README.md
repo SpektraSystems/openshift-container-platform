@@ -1,4 +1,4 @@
-# AEC Open Shift | Lab Guide
+# Open Shift | Lab Guide
 
 ***
 
