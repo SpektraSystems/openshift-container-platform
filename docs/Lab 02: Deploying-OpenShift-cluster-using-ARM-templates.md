@@ -1,4 +1,4 @@
-## Lab 2: Deploying Open Shift cluster using ARM templates
+## Lab 02: Deploying Open Shift cluster using ARM templates
 
 * [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
 * [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
@@ -238,5 +238,5 @@ Note: Skip the certificate warning
 13.	Once the login is **successful**, you will be *redirected to the **Openshift console**.
 <img src="../images/69openshift_cp.jpg"/>  
 
-[<Previous](/docs/Lab%201:%20Introduction-to-Azure-Portal.md) /
-[Next>](/docs/Lab%203:%20Deploying-workload-on-Openshift.md)
+[<Previous](/docs/Lab%2001:%20Introduction-to-Azure-Portal.md) /
+[Next>](/docs/Lab%2003:%20Deploying-workload-on-Openshift.md)
