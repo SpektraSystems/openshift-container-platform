@@ -192,7 +192,7 @@ Note: If the above page comes up, then the deployment is working.
 ```
 
 ## Exercise 03: Configure Azure AD Authentication
-In this exercise, you will configure the **AD App** you created for Authentication into the Open Shift console.
+In this exercise, you will configure the **AD App** you created for Authentication into the OpenShift console.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/43az_dashboard.jpg"/>
 
@@ -212,8 +212,8 @@ In this exercise, you will configure the **AD App** you created for Authenticati
 <img src="../images/48app_properties.jpg"/>
 
 7.	In the **Properties** blade, **edit** as follows:
--	App ID URI: (Provide the Open Shift Console URI)
--	Home Page URL type: (Provide the Open Shift Console URI)
+-	App ID URI: (Provide the OpenShift Console URI)
+-	Home Page URL type: (Provide the OpenShift Console URI)
 And then **click** on **Save**.
 <img src="../images/49save_properties.jpg"/>
 
