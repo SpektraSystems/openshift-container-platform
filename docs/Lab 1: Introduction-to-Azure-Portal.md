@@ -1,5 +1,5 @@
  ## Lab 1: Introduction to Azure Portal
- - Option 1: Using Preconfigured Environment
+ - Option 1: Using Preconfigured Environment(#option-1-using-preconfigured-environment)
    * [Exercise 1: Log into your Azure Portal](#exercise-1-log-into-your-azure-portal)
    * [Exercise 2: Verify access to the Subscription](#exercise-2-verify-access-to-the-subscription)
  - Option 2: Using own Subscription and configuring the Environment
@@ -9,7 +9,7 @@ This lab will take you through Azure login and portal experience.
 
 ### Prerequisites
 -	Windows or a Mac machine with HTML5 supported browser such as Microsoft Edge, Internet Explorer, Chrome or Firefox
--	You should have registered in the training portal https://azuretraining.spektrasystems.com and received the confirmation message with the credentials to login to the [Azure portal](http://portal.azure.com).
+-	You should have registered in the training portal https://experience-azure.azurewebsites.net and received the confirmation message with the credentials to login to the [Azure portal](http://portal.azure.com) or you should already have credentials to login into your own subscription.
 -	Red Hat Customer Portal login credentials so that the Azure instances can be registered with Red Hat Subscription Manager properly, and you must have enough OpenShift Container Platform entitlements to cover the chosen configuration.
 
 ![Registration Notification](../images/2registration_notification.jpg)
@@ -19,7 +19,9 @@ This lab will take you through Azure login and portal experience.
 
 10 minutes
 
-### Exercise 1: Log into your Azure Portal
+### Option 1: Using Preconfigured Environment
+
+### Exercise 1: Log into your Azure Portal and Verify access to the Subscription
 
 In this exercise, you will log into the **Azure Portal** using your Azure credentials.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
