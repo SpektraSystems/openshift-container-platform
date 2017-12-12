@@ -159,5 +159,5 @@ Note: Substitute for ACRLoginServerUri in the above command
 33.	In the next blade that come up, if the push has been **successful**, you can see sample/todapp repository there. 
 <img src="../images/135repositoriesview.jpg"/> 
 
-[<Previous](/docs/Lab%2003:%20Deploying-workload-on-Openshift.md)/
+[<Previous](/docs/Lab%2003:%20Deploying-workload-on-Openshift.md) /
 [Next>](/docs/Lab%2005:%20Additional-Labs.md)
