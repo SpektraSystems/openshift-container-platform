@@ -1,4 +1,4 @@
-## Lab 02: Deploying Open Shift cluster using ARM templates
+## Lab 02: Deploying OpenShift cluster using ARM templates
 
 * [Exercise 00: Create an Azure AD Application](#exercise-00-create-an-azure-ad-application)
 * [Exercise 01: Create a KeyVault](#exercise-01-create-a-keyvault)
