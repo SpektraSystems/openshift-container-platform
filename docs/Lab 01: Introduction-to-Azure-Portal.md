@@ -168,15 +168,11 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
-16.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
-
-"![Resource Group](../images/9resourcegroup.jpg)
-
-17.	You will be directed to the **Resource groups** blade, **click** on **+ Add**.
+16.	You will be directed to the **Resource groups** blade, **click** on **+ Add**.
 
 "![Resource Group](../images/9resourcegroup1.jpg)
 
-18. In the **Create** blade, **configure** as follows and then **click** on **Create**.
+17. In the **Create** blade, **configure** as follows and then **click** on **Create**.
 
 -	Resource Group Name: **(Provide a unique value)**
 -	Subscription: **(Select your subscription)**
@@ -184,21 +180,21 @@ You will use the above app details for Azure Integration in Lab 02: Exercise 3
 
 "![Resource Group](../images/9resourcegroup2.jpg)
 
-19.	Once the resource group is created, **Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
+18.	Once the resource group is created, **Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
-20.	You will see a **Resource Group** which you have created, **click** on it.
+19.	You will see a **Resource Group** which you have created, **click** on it.
 
-21.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
+20.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
 
 ![Access Control](../images/11access_control.jpg)
 
-22.	In the new blade that come up, **click** on **+ Add**.
+21.	In the new blade that come up, **click** on **+ Add**.
 
 ![Access Control](../images/22access_control.jpg)
 
-23. In the **Add Permissions** blade, **configure** as follows and then **click** on **Save**.
+22. In the **Add Permissions** blade, **configure** as follows and then **click** on **Save**.
 
 -	Role: **Contributor**
 -	Subscription: **Azure AD user, group, or application**
