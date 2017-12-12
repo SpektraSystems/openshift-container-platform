@@ -1,6 +1,6 @@
-## Lab 03: Deploying workload on Openshift
+## Lab 03: Deploying workload on OpenShift
 
-* [Exercise 00: Deploy a 2 Tier Node JS Application on Open Shift](#exercise-00-deploy-a-2-tier-node-js-application-on-open-shift)
+* [Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift](#exercise-00-deploy-a-2-tier-node-js-application-on-openshift)
 * [Exercise 01: Installing OpenShift CLI](#exercise-01-installing-openshift-cli)
 * [Exercise 02: Deployment in OpenShift using CLI](#exercise-02-deployment-in-openshift-using-cli)
 * [Exercise 03: Create an App using Docker build](#exercise-03-create-an-app-using-docker-build)
@@ -14,8 +14,8 @@ In this lab, we will deploy a workload on OpenShift.
 ### Time Estimate
 45 minutes
 
-### Exercise 00: Deploy a 2 Tier Node JS Application on Open Shift
-In this exercise, you will deploy a 2 tier Node.js app on Open Shift and configure it to use the DB on Azure.
+### Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift
+In this exercise, you will deploy a 2 tier Node.js app on OpenShift and configure it to use the DB on Azure.
 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/43az_dashboard.jpg"/>
@@ -56,7 +56,7 @@ And then Click on **Create**.
 10.	Now from the new blade that come up, **copy** the connection string for later use.
 <img src="../images/79copy_connstring.jpg"/>  
 
-11.	Now, open a new tab in a broswer and **navigate** to the **Openshift console url**. **Login** into the Openshift console using the **credentials** you **received via email** by Selecting AzureAD as authentication type.
+11.	Now, open a new tab in a broswer and **navigate** to the **OpenShift console url**. **Login** into the OpenShift console using the **credentials** you **received via email** by Selecting AzureAD as authentication type.
 <img src="../images/80openshift_console.jpg"/>  
 
 ### Exercise 01: Installing OpenShift CLI
@@ -74,7 +74,7 @@ The easiest way to **download** the **CLI** is by accessing the **Command line t
 2.	On **Command Line Tools** page, click on **Latest Release**.
 <img src="../images/82cl_latestrelease.jpg"/>  
 
-3.	Now, you need to **login** in to your **red hat account**(one which has license for Openshift)
+3.	Now, you need to **login** in to your **red hat account**(one which has license for OpenShift)
 <img src="../images/83redhatlogin.jpg"/>
 
 4.	Scroll down and click on **download**.
@@ -119,7 +119,7 @@ $ export PATH=$PATH:~/OpenShift
 In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker image.
 1.	Launch the command line and run below command and enter **username** and **password** as you have received in your lab mail.
 ```
-oc login <URL of Openshift:8443>
+oc login <URL of OpenShift:8443>
 ```
 
 2.	Create an **OpenShift project** by running below command. 
@@ -160,7 +160,7 @@ oc expose service welcome --name=welcomehost
 ``` 
 <img src="../images/90openshift_cmnd.jpg"/> 
 
-9.	Now go to your **openshift platform** and click on applications>hostname, you can access the **application** from the browser and see the result.
+9.	Now go to your **OpenShift platform** and click on applications>hostname, you can access the **application** from the browser and see the result.
 <img src="../images/91browser.jpg"/> 
 
 10.	To view all the **components** that were created in your **project**, run the command given below.
