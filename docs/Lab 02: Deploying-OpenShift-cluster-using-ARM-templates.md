@@ -1,7 +1,7 @@
 ## Lab 02: Deploying Open Shift cluster using ARM templates
 
 * [Exercise 1: Create an Azure AD Application](#exercise-1-create-an-azure-ad-application)
-* [Exercise 2: Create a Keyvault](#exercise-2-create-a-keyvault)
+* [Exercise 2: Create a KeyVault](#exercise-2-create-a-keyvault)
 * [Exercise 3: Deploy Openshift Cluster using ARM Template](#exercise-3-deploy-openshift-cluster-using-arm-template)
 * [Exercise 4: Configure Azure AD Authentication](#exercise-4-configure-azure-ad-authentication)
    
@@ -76,8 +76,8 @@ And **Click** on **Save.**
 <img src="../images/54grant_permission.jpg"/>
 <img src="../images/55grantpermission_yes.jpg"/>
 
-### Exercise 2: Create a Keyvault 
-In this exercise, you will configure **Azure Bash Cloud Shell** and create a **Key vault** in the existing resource group and store the **SSH key** inside the vault. 
+### Exercise 2: Create a KeyVault 
+In this exercise, you will configure **Azure Bash Cloud Shell** and create a **Key Vault** in the existing resource group and store the **SSH key** inside the Vault. 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
 <img src="../images/6azure_dashboard.jpg"/>
 
