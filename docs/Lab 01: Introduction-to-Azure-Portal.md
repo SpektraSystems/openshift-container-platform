@@ -51,26 +51,21 @@ Note : At the first login, you may have to change the password, if asked for.
 
 3.	Now, you will be directed to the **Azure Dashboard**
 
-![Azure Dashboard](../images/5azure_dashboard.jpg)
-
-
-4.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email. 
-
 ![Azure Dashboard](../images/6azure_dashboard.jpg)
 
-5. **Click** on **Microsoft Azure** at the top left corner of the screen, to view the Dashboard.
+4. **Click** on **Microsoft Azure** at the top left corner of the screen, to view the Dashboard.
 
 ![Microsoft Azure](../images/7microsoftazure.jpg)
 
-6.	To toggle **show/hide** the Portal menu options with icon, **Click** on the **Show Menu** button. 
+5.	To toggle **show/hide** the Portal menu options with icon, **Click** on the **Show Menu** button. 
 
 ![Azure Menu](../images/8azure_menu.jpg)
 
-7.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
+6.	**Click** on the **Resource groups** button in the **Menu navigation** bar to view the **Resource groups** blade.
 
 "![Resource Group](../images/9resourcegroup.jpg)
 
-8.	You will see a **Resource Group** which you have access to, **click** on it.
+7.	You will see a **Resource Group** which you have access to, **click** on it.
 
 ![Select RG](../images/10select_rg.jpg)
 
@@ -79,11 +74,11 @@ Note:
 The Resource Group shown here is for demo purpose only. Actual name of the Resouce Group that you see may differ.
 ```
 
-9.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
+8.	From the **Resource Group** blade that come up, **Select** the Access Control ( IAM ) which is on the left side of the blade.
 
 ![Access Control](../images/11access_control.jpg)
 
-10.	In the new blade that come up, you can see the **role** that is assigned to you.
+9.	In the new blade that come up, you can see the **role** that is assigned to you.
 
 ![Role](../images/12role.jpg)
 
