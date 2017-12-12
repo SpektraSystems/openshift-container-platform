@@ -12,7 +12,7 @@
  - [Option 1: Using Preconfigured Environment](docs//Lab%2001:%20Introduction-to-Azure-Portal.md#option-1-using-preconfigured-environment)
    * [Exercise 1: Log into your Azure Portal](docs//Lab%2001:%20Introduction-to-Azure-Portal.md#exercise-1-log-into-your-azure-portal-and-verify-access-to-the-subscription)
  - [Option 2: Using own Subscription and configuring the Environment](docs//Lab%2001:%20Introduction-to-Azure-Portal.md#option-2-using-own-subscription-and-configuring-the-environment)
-   * [Exercise 1: Log into your Azure Portal and deploy the pre-requisite environment](docs/Lab%2001:%20Introduction-to-Azure-Portal.md#exercise-1-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment	
+   * [Exercise 1: Log into your Azure Portal and deploy the pre-requisite environment](docs/Lab%2001:%20Introduction-to-Azure-Portal.md#exercise-1-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment)
 * [Lab 02: Deploying Open Shift cluster using ARM templates](docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
    * [Exercise 1: Create an Azure AD Application](docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md#exercise-1-create-an-azure-ad-application)
    * [Exercise 2: Create a Keyvault](docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md#exercise-2-create-a-keyvault)
