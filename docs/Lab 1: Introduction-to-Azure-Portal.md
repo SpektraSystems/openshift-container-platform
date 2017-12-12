@@ -1,4 +1,4 @@
- ## Lab 1: Introduction to Azure Portal
+ ## Lab 01: Introduction to Azure Portal
  - [Option 1: Using Preconfigured Environment](#option-1-using-preconfigured-environment)
    * [Exercise 1: Log into your Azure Portal and Verify access to the Subscription](#exercise-1-log-into-your-azure-portal-and-verify-access-to-the-subscription)
  - [Option 2: Using own Subscription and configuring the Environment](#option-2-using-own-subscription-and-configuring-the-environment)
@@ -197,4 +197,4 @@ And **Click** on **Save.**
 ![Access Control](../images/22access_control1.jpg)
 
 [<Previous](https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md) /
-[Next>](/docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
+[Next>](/docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
