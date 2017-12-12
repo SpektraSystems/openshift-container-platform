@@ -184,7 +184,17 @@ And **Click** on **Save.**
 
 ![Access Control](../images/11access_control.jpg)
 
-22.	In the new blade that come up, you can see the **role** that is assigned to you.
+22.	In the new blade that come up, **click** on **+ Add**.
+
+![Access Control](../images/22access_control.jpg)
+
+23. In the **Add Permissions** blade, **configure** as follows and then **click** on **Save**.
+
+-	Role: **Contributor**
+-	Subscription: **Azure AD user, group, or application**
+-	Select: **(Type the name of the app you created before and Select that)**
+
+![Access Control](../images/22access_control1.jpg)
 
 [<Previous](https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md) /
 [Next>](/docs/Lab%202:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
