@@ -30,6 +30,7 @@ In this exercise, you will create a source environment.
 
 3. You will see the environment details soon below.
 ![Training Portal Register3](../images/2odl_register3.jpg)
+Please ensure to take the values assigned to your deployment.
 
 
 ### Exercise 01: Log into your Azure Portal and Verify access to the Subscription
