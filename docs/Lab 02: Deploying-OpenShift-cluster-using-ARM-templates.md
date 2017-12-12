@@ -223,10 +223,10 @@ And then **click** on **Save**.
 9.	Then you will be **redirected** to the Settings Blade of **AD App**. Click on the **Reply URLs**.
 <img src="../images/51reply_url.jpg"/>
 
-10.	Now **modify** the openshift console **url** by removing the ‘console’ from the end and appending **‘oauth2callback/AzureAD’** to the url and provide it in the Reply URL blade that come up and then Click on Save. 
+10.	Now **modify** the OpenShift console **url** by removing the ‘console’ from the end and appending **‘oauth2callback/AzureAD’** to the url and provide it in the Reply URL blade that come up and then Click on Save. 
 <img src="../images/52replyurl_save.jpg"/>
 
-11.	Now to verify that the user is able to **authenticate** to Openshift console via Azure AD, **Open** a new tab in the browser and **paste** the **Openshift Console URL** which you copied earlier.
+11.	Now to verify that the user is able to **authenticate** to OpenShift console via Azure AD, **Open** a new tab in the browser and **paste** the **OpenShift Console URL** which you copied earlier.
 ```
 Note: Skip the certificate warning
 ```
