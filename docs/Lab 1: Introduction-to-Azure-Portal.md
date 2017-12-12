@@ -25,6 +25,7 @@ In this exercise, you will log into the **Azure Portal** using your Azure creden
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 ![Azure Login](../images/3azure_login.jpg)
+![Azure Login](../images/3azure_login1.jpg)
 
 ```
 Note : At the first login, you may have to change the password, if asked for.
