@@ -10,7 +10,7 @@ In this lab, we will integrate ACR with OpenShift.
 45 minutes
 
 ### Exercise 00: Integrate ACR with OpenShift 
-In this exercise, you will deploy an Azure Container Registry and integrate it with Open Shift. 
+In this exercise, you will deploy an Azure Container Registry and integrate it with OpenShift. 
 
 1.	**Launch** a browser and **Navigate** to [Azure Portal](https://portal.azure.com). **Login** with the Microsoft Azure credentials you received via email. 
 2.	Click on **+New** on the left side of the Dashboard.
@@ -48,7 +48,7 @@ And then **Click** on **Create**.
 Copy the **Registry name**, **Login server**, **Username** and **password** to a text editor for later use.
 <img src="../images/111acr_copy.jpg"/> 
 
-10.	Now, open a new tab in a browser and navigate to the Openshift console url. **Login** into the **Openshift console** using the credentials you received via email by Selecting AzureAD as authentication type.
+10.	Now, open a new tab in a browser and navigate to the OpenShift console url. **Login** into the **OpenShift console** using the credentials you received via email by Selecting AzureAD as authentication type.
 <img src="../images/112openshift_console.jpg"/> 
 
 11.	Now you will be redirected to the **My Projects** page, where you will select the Project you created earlier.
@@ -75,7 +75,7 @@ Copy the **Registry name**, **Login server**, **Username** and **password** to a
 18.	Now the **bash shell** will open up.
 <img src="../images/120bashshell.jpg"/> 
 
-19.	Now **execute** the following command. When promted, type **Yes** and you will be logged in to the Openshift Master VM.
+19.	Now **execute** the following command. When promted, type **Yes** and you will be logged in to the OpenShift Master VM.
 ```
 ssh ocpadmin@<copiedDNSNameofBastionVM>
 ```
