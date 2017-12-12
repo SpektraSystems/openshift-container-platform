@@ -95,7 +95,7 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 ### Exercise 00: Log into your Azure Portal and deploy the pre-requisite environment
 
-In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will vdeploy the pre-requisite environment.
+In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will deploy the pre-requisite environment.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
 
 ![Azure Login](../images/3azure_login2.jpg)
