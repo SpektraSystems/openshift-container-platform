@@ -2,7 +2,7 @@
  - Option 1: Using Preconfigured Environment
    * [Exercise 1: Log into your Azure Portal](#exercise-1-log-into-your-azure-portal)
    * [Exercise 2: Verify access to the Subscription](#exercise-2-verify-access-to-the-subscription)
- - Option 2: Using own Subscripting and configuring the Environment
+ - Option 2: Using own Subscription and configuring the Environment
    
 ### Lab Overview
 This lab will take you through Azure login and portal experience.
