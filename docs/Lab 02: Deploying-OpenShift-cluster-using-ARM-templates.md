@@ -2,12 +2,12 @@
 
 * [Exercise 00: Create an Azure AD Application](#exercise-00-create-an-azure-ad-application)
 * [Exercise 01: Create a KeyVault](#exercise-01-create-a-keyvault)
-* [Exercise 02: Deploy Openshift Cluster using ARM Template](#exercise-02-deploy-openshift-cluster-using-arm-template)
+* [Exercise 02: Deploy OpenShift Cluster using ARM Template](#exercise-02-deploy-openshift-cluster-using-arm-template)
 * [Exercise 03: Configure Azure AD Authentication](#exercise-03-configure-azure-ad-authentication)
    
  
 ### Lab Overview
-In this lab, you will learn how to **deploy the Open Shift Cluster** on **Azure** using ARM templates.
+In this lab, you will learn how to **deploy the OpenShift Cluster** on **Azure** using ARM templates.
 ### Prerequisites
 *	Lab 01 must be completed
 
@@ -134,8 +134,8 @@ Substitute for key vault name in the above command with the name of the keyvault
 ```
 <img src="../images/32store_key.jpg"/>
 
-## Exercise 02: Deploy Openshift Cluster using ARM Template  
-In this exercise, you will deploy the **Openshift cluster** on Azure using ARM Template.
+## Exercise 02: Deploy OpenShift Cluster using ARM Template  
+In this exercise, you will deploy the **OpenShift cluster** on Azure using ARM Template.
 
 1.	Now **click** on **Deploy to Azure** button and you will be redirected to the azure portal. If prompted **login** with the Microsoft Azure credentials you received via email.
 
@@ -177,7 +177,7 @@ In this exercise, you will deploy the **Openshift cluster** on Azure using ARM T
 9.	From the new blade that come up, you can see the **outputs** of the deployment.
 <img src="../images/41dep_output.jpg"/>
 
-10.	**Copy** the **Openshift Console URL**, Bastion **DNS FQDN** and **OpenShift Master SSH** by clicking on Copy to a text editor
+10.	**Copy** the **OpenShift Console URL**, Bastion **DNS FQDN** and **OpenShift Master SSH** by clicking on Copy to a text editor
 
 11.	To verify that the deployment is working, **Open** a new tab in the browser and **paste** the copied **URL**.
 ```
@@ -235,7 +235,7 @@ Note: Skip the certificate warning
 12.	Now click on **AzureAD**, you will be redirected to the **Login Page**. Provide the Azure credentials you received via email over there and click on **Sign in**.
 <img src="../images/68sign_in.jpg"/>
 
-13.	Once the login is **successful**, you will be redirected to the **Openshift console**.
+13.	Once the login is **successful**, you will be redirected to the **OpenShift console**.
 <img src="../images/69openshift_cp.jpg"/>  
 
 [<Previous](/docs/Lab%2001:%20Introduction-to-Azure-Portal.md) /
