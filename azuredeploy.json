@@ -118,8 +118,8 @@
         }
     },
     "variables": {
-        "masterInstanceCount": 3,
-        "infraInstanceCount": 2,
+        "masterInstanceCount": 1,
+        "infraInstanceCount": 1,
         "nodeInstanceCount": 1,
         "dataDiskSize": 128,
 
