@@ -191,15 +191,10 @@ cat > /home/${SUDOUSER}/setup-azure-master.yml <<EOF
     azure_conf: "{{ azure_conf_dir }}/azure.conf"
     master_conf: /etc/origin/master/master-config.yaml
   handlers:
-  - name: restart atomic-openshift-master-api
+  - name: restart atomic-openshift-master
     systemd:
       state: restarted
-      name: atomic-openshift-master-api
-
-  - name: restart atomic-openshift-master-controllers
-    systemd:
-      state: restarted
-      name: atomic-openshift-master-controllers
+      name: atomic-openshift-master
 
   post_tasks:
   - name: make sure /etc/azure exists
@@ -219,8 +214,7 @@ cat > /home/${SUDOUSER}/setup-azure-master.yml <<EOF
           "resourceGroup": "{{ g_resourceGroup }}",
         } 
     notify:
-    - restart atomic-openshift-master-api
-    - restart atomic-openshift-master-controllers
+    - restart atomic-openshift-master
 
   - name: insert the azure disk config into the master
     modify_yaml:
@@ -244,8 +238,7 @@ cat > /home/${SUDOUSER}/setup-azure-master.yml <<EOF
       value:
       - azure
     notify:
-    - restart atomic-openshift-master-api
-    - restart atomic-openshift-master-controllers
+    - restart atomic-openshift-master
 EOF
 
 # Create Azure Cloud Provider configuration Playbook for Node Config (Master Nodes)
@@ -417,7 +410,7 @@ openshift_disable_check=memory_availability,docker_image_availability
 openshift_router_selector='type=infra'
 openshift_registry_selector='type=infra'
 
-openshift_master_cluster_method=native
+#openshift_master_cluster_method=native
 openshift_master_cluster_hostname=$MASTERPUBLICIPHOSTNAME
 openshift_master_cluster_public_hostname=$MASTERPUBLICIPHOSTNAME
 openshift_master_cluster_public_vip=$MASTERPUBLICIPADDRESS
@@ -442,14 +435,17 @@ openshift_logging_es_nodeselector={"type":"infra"}
 openshift_logging_kibana_nodeselector={"type":"infra"}
 openshift_logging_curator_nodeselector={"type":"infra"}
 openshift_master_logging_public_url=https://kibana.$ROUTING
+openshift_logging_master_public_url=https://$MASTERPUBLICIPHOSTNAME:8443
 
 # host group for masters
 [masters]
-$MASTER-[0:${MASTERLOOP}]
+#$MASTER-[0:${MASTERLOOP}]
+$MASTER-0
 
 # host group for etcd
 [etcd]
-$MASTER-[0:${MASTERLOOP}] 
+#$MASTER-[0:${MASTERLOOP}] 
+$MASTER-0
 
 [master0]
 $MASTER-0
