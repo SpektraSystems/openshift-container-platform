@@ -82,6 +82,11 @@ The Resource Group shown here is for demo purpose only. Actual name of the Resou
 
 ![Role](../images/12role.jpg)
 
+Now, goto next lab.
+[<Previous](https://github.com/SpektraSystems/openshift-container-platform/blob/master/README.md) /
+[Next>](/docs/Lab%2002:%20Deploying-OpenShift-cluster-using-ARM-templates.md)
+
+
 ### Option 2: Using own Subscription and configuring the Environment
 
 ### Time Estimate
