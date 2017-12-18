@@ -147,6 +147,7 @@ In this exercise, you will deploy the **OpenShift cluster** on Azure using ARM T
 3.	In the **Custom Deployment** blade, **configure** the settings as follows:
 -	Resource Group : Choose Use **existing** and scroll down to see the Resource Group which is already there)
 -	Openshift Password  :  **Provide a unique password**
+-  Rhsm Username Password Or Activation key :  **activationkey** 
 -	Ssh Public Key :  **Provide the copied SSH key**
 -	Rhsm Username or Org Id: **Provide Rhsm Org ID which is received via email**
 -	Rhsm Password or Activation Key: **Provide Rhsm Activation Key which is received via email**
