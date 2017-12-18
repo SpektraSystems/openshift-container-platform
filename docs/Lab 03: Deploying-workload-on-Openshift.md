@@ -1,9 +1,9 @@
 ## Lab 03: Deploying workload on OpenShift
 
-* [Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift](#exercise-00-deploy-a-2-tier-node-js-application-on-openshift)
-* [Exercise 01: Installing OpenShift CLI](#exercise-01-installing-openshift-cli)
-* [Exercise 02: Deployment in OpenShift using CLI](#exercise-02-deployment-in-openshift-using-cli)
-* [Exercise 03: Create an App using Docker build](#exercise-03-create-an-app-using-docker-build)
+* [Exercise 01: Deploy a 2 Tier Node JS Application on OpenShift](#exercise-01-deploy-a-2-tier-node-js-application-on-openshift)
+* [Exercise 02: Installing OpenShift CLI](#exercise-02-installing-openshift-cli)
+* [Exercise 03: Deployment in OpenShift using CLI](#exercise-03-deployment-in-openshift-using-cli)
+* [Exercise 04: Create an App using Docker build](#exercise-04-create-an-app-using-docker-build)
 
 ### Lab overview
 In this lab, we will deploy a workload on OpenShift.
@@ -14,7 +14,7 @@ In this lab, we will deploy a workload on OpenShift.
 ### Time Estimate
 45 minutes
 
-### Exercise 00: Deploy a 2 Tier Node JS Application on OpenShift
+### Exercise 01: Deploy a 2 Tier Node JS Application on OpenShift
 In this exercise, you will deploy a 2 tier Node.js app on OpenShift and configure it to use the DB on Azure.
 
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. **Login** with the Microsoft Azure credentials you received via email.
@@ -59,7 +59,7 @@ And then Click on **Create**.
 11.	Now, open a new tab in a broswer and **navigate** to the **OpenShift console url**. **Login** into the OpenShift console using the **credentials** you **received via email** by Selecting AzureAD as authentication type.
 <img src="../images/80openshift_console.jpg"/>  
 
-### Exercise 01: Installing OpenShift CLI
+### Exercise 02: Installing OpenShift CLI
 #### COMMAND LINE INTERFACE
 OpenShift ships with a feature rich web console as well as command line tools to provide users with a nice interface to work with applications deployed to the platform. The OpenShift tools are a single executable written in the Go programming language and is available for the following operating systems: 
 -	Microsoft Windows 
@@ -115,7 +115,7 @@ $ export PATH=$PATH:~/OpenShift
 7.	Now run below command on shell/command prompt to check the **version** of OpenShift client an to verify that it is successfully configured.
 <img src="../images/84check_version.jpg"/>  
 
-### Exercise 02: Deployment in OpenShift using CLI
+### Exercise 03: Deployment in OpenShift using CLI
 In this exercise, you will learn how to create a new project on OpenShift and how to create an application from an existing docker image.
 1.	Launch the command line and run below command and enter **username** and **password** as you have received in your lab mail.
 ```
@@ -175,7 +175,7 @@ oc get all --all
 ```
 <img src="../images/93delete.jpg"/> 
 
-### Exercise 03: Create an App using Docker build
+### Exercise 04: Create an App using Docker build
 In this exercise, you will learn how to create an **application** from a Dockerfile. OpenShift takes Dockerfile as an input and generates your application docker image for you.
 
 1.	You can create a new **project** or use **existing project** that created in exercise 3. To make sure you have the existing project run the following command.
