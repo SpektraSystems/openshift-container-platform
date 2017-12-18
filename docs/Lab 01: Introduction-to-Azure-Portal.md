@@ -1,9 +1,9 @@
  ## Lab 01: Introduction to Azure Portal
  - [Option 1: Using Preconfigured Environment](#option-1-using-preconfigured-environment)
-   * [Exercise 00: Sign Up for Pre-configured Environment](#exercise-00-sign-up-for-pre-configured-environment)
-   * [Exercise 01: Log into your Azure Portal and Verify access to the Subscription](#exercise-01-log-into-your-azure-portal-and-verify-access-to-the-subscription)
+   * [Exercise 01: Sign Up for Pre-configured Environment](#exercise-01-sign-up-for-pre-configured-environment)
+   * [Exercise 02: Log into your Azure Portal and Verify access to the Subscription](#exercise-02-log-into-your-azure-portal-and-verify-access-to-the-subscription)
  - [Option 2: Using own Subscription and configuring the Environment](#option-2-using-own-subscription-and-configuring-the-environment)
-   * [Exercise 00: Log into your Azure Portal and deploy the pre-requisite environment](#exercise-00-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment)   
+   * [Exercise 01: Log into your Azure Portal and deploy the pre-requisite environment](#exercise-01-log-into-your-azure-portal-and-deploy-the-pre-requisite-environment)   
 ### Lab Overview
 This lab will take you through Azure login and portal experience and the pre-requisite environment.
 If you do not have an Azure Subscription, or an environment where you can setup the pre-requisite for carrying out these labs, you should select [Option 1](#option-1-using-preconfigured-environment), else go to [Option 2](#option-2-using-own-subscription-and-configuring-the-environment)
@@ -19,7 +19,7 @@ If you do not have an Azure Subscription, or an environment where you can setup 
 
 10 minutes
 
-### Exercise 00: Sign Up for pre configured environment
+### Exercise 01: Sign Up for pre configured environment
 
 In this exercise, you will create a source environment.
 1.	**Navigate** to training portal https://experience-azure.azurewebsites.net and register by providing all required information and **clicking** on **SUBMIT button**.
@@ -33,7 +33,7 @@ In this exercise, you will create a source environment.
 Please ensure to take the values assigned to your deployment.
 
 
-### Exercise 01: Log into your Azure Portal and Verify access to the Subscription
+### Exercise 02: Log into your Azure Portal and Verify access to the Subscription
 
 In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will verify the type of role you are assigned in this Subscription.
 1.	**Launch** a browser in InPrivate/Incognito mode and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
@@ -93,7 +93,7 @@ Now, goto next lab.
 
 30 minutes
 
-### Exercise 00: Log into your Azure Portal and deploy the pre-requisite environment
+### Exercise 01: Log into your Azure Portal and deploy the pre-requisite environment
 
 In this exercise, you will log into the **Azure Portal** using your Azure credentials and you will deploy the pre-requisite environment.
 1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Provide the credentials that you received via email. Click on **Sign In**.
