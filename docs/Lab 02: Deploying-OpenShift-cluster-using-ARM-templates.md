@@ -148,9 +148,9 @@ In this exercise, you will deploy the **OpenShift cluster** on Azure using ARM T
 -	Resource Group : Choose Use **existing** and scroll down to see the Resource Group which is already there)
 -	Openshift Password  :  **Provide a unique password**
 -	Ssh Public Key :  **Provide the copied SSH key**
--	Rhsm Username or Org Id: **Provide the username of Redhat credentials**
--	Rhsm Password or Org Id: **Provide the password of Redhat credentials**
--	Rhsm Pool Id: **Provide the pool Id of Redhat OpenShift Subscription**
+-	Rhsm Username or Org Id: **Provide Rhsm Org ID which is received via email**
+-	Rhsm Password or Activation Key: **Provide Rhsm Activation Key which is received via email**
+-	Rhsm Pool Id: **Provide Rhsm Pool ID which is received via email**
 -	Key Vault Name : **Provide the Key Vault name you provided**
 -	Key Vault Secret : **osdemovaultsecret**
 -  Azure Integration Cient Id : **Provide the Application ID which is received via email**
